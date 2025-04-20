@@ -1,0 +1,2325 @@
+{
+  "intents": [
+    {
+      "tag": "student_faculty_ratio",
+      "patterns": [
+        "What should I know about what is the student-to-faculty ratio at merrimack?",
+        "What's the ratio of students to faculty?",
+        "How large are classes compared to number of professors?",
+        "Can I find out more about what's the ratio of students to faculty?",
+        "How does Merrimack handle how many students per professor are there?",
+        "Would you explain how large are classes compared to number of professors to me?",
+        "Info on student",
+        "Can I find out more about how many students per professor are there?",
+        "Can you tell me how many students per professor are there?",
+        "Tell me about faculty",
+        "Info on ratio",
+        "Would you explain how many students per professor are there to me?",
+        "I'd like to know is the student to faculty ratio good.",
+        "Tell me about student",
+        "I'd like to know what is the student-to-faculty ratio at merrimack.",
+        "faculty?",
+        "Could you explain what is the student-to-faculty ratio at merrimack?",
+        "What should I know about how many students per professor are there?",
+        "Do you have info on what's the ratio of students to faculty?",
+        "Can you tell me is the student to faculty ratio good?"
+      ],
+      "responses": [
+        "Merrimack College maintains a favorable student-to-faculty ratio of about 14:1 across all disciplines."
+      ]
+    },
+    {
+      "tag": "professor_advising",
+      "patterns": [
+        "Are professors involved in advising students on career goals or grad school?",
+        "How does Merrimack handle can professors guide me toward graduate school?",
+        "Can you tell me will professors help me with my future plans?",
+        "Would you explain will professors help me with my future plans to me?",
+        "Could you explain can professors guide me toward graduate school?",
+        "What can you tell me about do professors help with career advice?",
+        "Do you have info on are professors involved in advising students on career goals or grad school?",
+        "Do you have info on can professors guide me toward graduate school?",
+        "Do faculty members provide career counseling?",
+        "Can professors guide me toward graduate school?",
+        "Can I find out more about are professors involved in advising students on career goals or grad school?",
+        "Can I find out more about can professors guide me toward graduate school?",
+        "Could you explain will professors help me with my future plans?",
+        "What can you tell me about will professors help me with my future plans?",
+        "Do you have info on do faculty members provide career counseling?",
+        "Tell me about professor",
+        "What is professor?",
+        "professor at Merrimack",
+        "advising at Merrimack",
+        "advising?"
+      ],
+      "responses": [
+        "Yes, professors at Merrimack are highly involved in advising students on both career goals and graduate school options. They hold regular office hours and provide personalized guidance based on your academic interests and career aspirations."
+      ]
+    },
+    {
+      "tag": "professor_accessibility",
+      "patterns": [
+        "Can you tell me can i meet professors after class?",
+        "Is there anything special about are faculty members available for help?",
+        "What is accessibility?",
+        "Are faculty members available for help?",
+        "Info on accessibility",
+        "How does Merrimack handle are faculty members available for help?",
+        "Is there anything special about do professors have office hours?",
+        "I'd like to know is it easy to get in touch with professors.",
+        "Tell me about professor",
+        "What is professor?",
+        "What should I know about how accessible are professors outside of class?",
+        "professor at Merrimack",
+        "Can I find out more about can i meet professors after class?",
+        "Merrimack accessibility",
+        "Can I find out more about are faculty members available for help?",
+        "Would you explain do professors have office hours to me?",
+        "Can I find out more about how accessible are professors outside of class?",
+        "Would you explain are faculty members available for help to me?",
+        "Info on professor",
+        "What can you tell me about how accessible are professors outside of class?"
+      ],
+      "responses": [
+        "Professors at Merrimack are highly accessible and committed to student success. They hold regular office hours, respond promptly to emails, and many provide additional meeting times by appointment. The small campus environment fosters strong faculty-student relationships."
+      ]
+    },
+    {
+      "tag": "honors_programs",
+      "patterns": [
+        "How does Merrimack handle does merrimack have an honors program?",
+        "Would you explain does merrimack have an honors program to me?",
+        "What should I know about what special opportunities exist for high-achieving students?",
+        "Would you explain what special opportunities exist for high-achieving students to me?",
+        "Do you have info on does merrimack have an honors program?",
+        "What should I know about does merrimack have an honors program?",
+        "Info on honors",
+        "Could you explain is there an honors college?",
+        "Would you explain is there an honors college to me?",
+        "Merrimack programs",
+        "Is there anything special about are there honors programs or special tracks for high-achieving students?",
+        "Can I find out more about what special opportunities exist for high-achieving students?",
+        "I'd like to know are there advanced academic tracks.",
+        "Can I find out more about are there honors programs or special tracks for high-achieving students?",
+        "Tell me about programs",
+        "What can you tell me about is there an honors college?",
+        "How does Merrimack handle is there an honors college?",
+        "Can you tell me is there an honors college?",
+        "What is programs?",
+        "honors?"
+      ],
+      "responses": [
+        "Yes, Merrimack offers an Honors Program that provides enhanced academic experiences for high-achieving students across all majors. The program features smaller classes, special seminars, research opportunities, and dedicated housing options for honors students."
+      ]
+    },
+    {
+      "tag": "undergraduate_research",
+      "patterns": [
+        "undergraduate at Merrimack",
+        "How early can students start doing research?",
+        "What can you tell me about do undergrads publish papers?",
+        "What can you tell me about can students get involved in research as undergraduates?",
+        "How does Merrimack handle do undergrads publish papers?",
+        "How does Merrimack handle are there research positions for students?",
+        "Do you have info on are there research positions for students?",
+        "Would you explain do undergrads publish papers to me?",
+        "Is there anything special about can students get involved in research as undergraduates?",
+        "Can you tell me how early can students start doing research?",
+        "undergraduate?",
+        "Can I find out more about can students get involved in research as undergraduates?",
+        "Can I find out more about are there research positions for students?",
+        "I'd like to know do undergrads publish papers.",
+        "Do you have info on how early can students start doing research?",
+        "Info on undergraduate",
+        "Do undergrads publish papers?",
+        "Can you tell me are there research positions for students?",
+        "What is undergraduate?",
+        "research?"
+      ],
+      "responses": [
+        "Research opportunities are available to undergraduates in most fields of study at Merrimack. Students can begin research as early as freshman year through faculty-led projects, summer research programs, and independent studies. Many students present their work at conferences and some co-author publications with faculty mentors."
+      ]
+    },
+    {
+      "tag": "class_structure",
+      "patterns": [
+        "What can you tell me about are classes interactive or just lectures?",
+        "Can I find out more about how are classes typically structured? lecture-based or interactive?",
+        "Do students participate a lot in class?",
+        "How does Merrimack handle are classes interactive or just lectures?",
+        "What teaching methods do professors use?",
+        "Do you have info on are ecs courses more hands-on or lecture-based?",
+        "Merrimack structure",
+        "Info on structure",
+        "structure?",
+        "I'd like to know are ecs courses more hands-on or lecture-based.",
+        "Are ECS courses more hands-on or lecture-based?",
+        "Are classes interactive or just lectures?",
+        "How does Merrimack handle what teaching methods do professors use?",
+        "What can you tell me about how are classes typically structured? lecture-based or interactive?",
+        "I'd like to know how are classes typically structured? lecture-based or interactive.",
+        "How does Merrimack handle are ecs courses more hands-on or lecture-based?",
+        "Do you have info on how are classes typically structured? lecture-based or interactive?",
+        "Is there anything special about are classes interactive or just lectures?",
+        "structure at Merrimack",
+        "Tell me about class"
+      ],
+      "responses": [
+        "Classes at Merrimack are typically engaging and interactive. While the format varies by discipline, many incorporate hands-on learning experiences, group projects, discussions, and applied problem-solving. Engineering and computer science courses particularly emphasize practical applications and project-based learning alongside theoretical foundations."
+      ]
+    },
+    {
+      "tag": "favorite_class",
+      "patterns": [
+        "favorite?",
+        "I'd like to know what class would you recommend taking.",
+        "Do you have info on which professor made the biggest impact on you?",
+        "Is there anything special about which professor made the biggest impact on you?",
+        "How does Merrimack handle which professor made the biggest impact on you?",
+        "Could you explain what class would you recommend taking?",
+        "Would you explain what class would you recommend taking to me?",
+        "Can I find out more about which professor made the biggest impact on you?",
+        "I'd like to know what's been your favorite class or professor and why.",
+        "How does Merrimack handle who is the best professor?",
+        "Can you tell me what class would you recommend taking?",
+        "Can you tell me which class did you enjoy most?",
+        "What should I know about which class did you enjoy most?",
+        "Which class did you enjoy most?",
+        "What can you tell me about which class did you enjoy most?",
+        "Can I find out more about who is the best professor?",
+        "Tell me about favorite",
+        "Merrimack favorite",
+        "favorite at Merrimack",
+        "Tell me about class"
+      ],
+      "responses": [
+        "Students frequently mention professors who combine academic rigor with genuine care for student success. Popular classes tend to be those with hands-on components that connect theory to real-world applications. Since Pepper doesn't take classes, I recommend speaking with student representatives about their personal favorites!"
+      ]
+    },
+    {
+      "tag": "arts_humanities_programs",
+      "patterns": [
+        "What should I know about what majors are available in the humanities?",
+        "I'd like to know what arts and humanities programs does merrimack offer.",
+        "arts?",
+        "Can I find out more about what majors are available in the humanities?",
+        "How does Merrimack handle what majors are available in the humanities?",
+        "arts at Merrimack",
+        "Can I find out more about what arts and humanities programs does merrimack offer?",
+        "Merrimack programs",
+        "What arts and humanities programs does Merrimack offer?",
+        "I'd like to know does merrimack have art programs.",
+        "Tell me about arts",
+        "Is there anything special about what arts and humanities programs does merrimack offer?",
+        "Can I find out more about what can i study in liberal arts?",
+        "Tell me about programs",
+        "Do you have info on what majors are available in the humanities?",
+        "How does Merrimack handle what arts and humanities programs does merrimack offer?",
+        "Can you tell me are there humanities degrees?",
+        "What should I know about does merrimack have art programs?",
+        "Would you explain does merrimack have art programs to me?",
+        "Info on arts"
+      ],
+      "responses": [
+        "Merrimack offers diverse arts and humanities programs including English, History, Philosophy, Religious Studies, and Visual & Performing Arts. These programs emphasize critical thinking, communication skills, and creative expression."
+      ]
+    },
+    {
+      "tag": "performance_opportunities",
+      "patterns": [
+        "Would you explain can i perform in plays or concerts to me?",
+        "Merrimack performance",
+        "Can you tell me can i join theater productions?",
+        "opportunities?",
+        "What is opportunities?",
+        "What should I know about does merrimack have performance groups?",
+        "What should I know about are there music groups to join?",
+        "Could you explain are there music groups to join?",
+        "Do you have info on are there music groups to join?",
+        "Could you explain does merrimack have performance groups?",
+        "What can you tell me about are there performance opportunities for students interested in music or theater?",
+        "Can I find out more about can i join theater productions?",
+        "Would you explain are there performance opportunities for students interested in music or theater to me?",
+        "How does Merrimack handle does merrimack have performance groups?",
+        "What is performance?",
+        "Can I join theater productions?",
+        "Is there anything special about are there music groups to join?",
+        "I'd like to know can i perform in plays or concerts.",
+        "Tell me about opportunities",
+        "Merrimack opportunities"
+      ],
+      "responses": [
+        "Yes, Merrimack offers numerous performance opportunities. The Rogers Center for the Arts provides venues for theater productions, concerts, and art exhibitions. Students can participate in various ensembles, theater productions, and performance groups regardless of their major."
+      ]
+    },
+    {
+      "tag": "art_facilities",
+      "patterns": [
+        "Merrimack art",
+        "Do you have info on where do art students work?",
+        "Can you tell me does merrimack have music practice rooms?",
+        "Info on facilities",
+        "Do you have info on what kind of art facilities does merrimack have?",
+        "Could you explain does merrimack have music practice rooms?",
+        "facilities at Merrimack",
+        "Could you explain what facilities exist for creative arts?",
+        "Do you have info on are there art studios on campus?",
+        "What can you tell me about where do art students work?",
+        "What should I know about does merrimack have music practice rooms?",
+        "I'd like to know what facilities exist for creative arts.",
+        "What can you tell me about are there art studios on campus?",
+        "Tell me about facilities",
+        "Do you have info on what facilities exist for creative arts?",
+        "Tell me about art",
+        "Can you tell me where do art students work?",
+        "Would you explain where do art students work to me?",
+        "Is there anything special about what kind of art facilities does merrimack have?",
+        "Can you tell me are there art studios on campus?"
+      ],
+      "responses": [
+        "The Visual Arts Center features studios for drawing, painting, and digital media. The Rogers Center for the Arts provides performance spaces, while music students have access to practice rooms and performance halls. These facilities support both curricular and extracurricular creative activities."
+      ]
+    },
+    {
+      "tag": "writing_publications",
+      "patterns": [
+        "Is there anything special about does merrimack have a student newspaper?",
+        "How does Merrimack handle does merrimack have a student newspaper?",
+        "Would you explain what publishing opportunities exist for writers to me?",
+        "I'd like to know can students publish their writing.",
+        "Do you have info on can students publish their writing?",
+        "writing?",
+        "Is there a literary magazine?",
+        "Can you tell me does merrimack have a student newspaper?",
+        "Is there anything special about are there writing or literary publications on campus?",
+        "What can you tell me about what publishing opportunities exist for writers?",
+        "What is writing?",
+        "Can students publish their writing?",
+        "How does Merrimack handle is there a literary magazine?",
+        "How does Merrimack handle what publishing opportunities exist for writers?",
+        "Could you explain are there writing or literary publications on campus?",
+        "What can you tell me about are there writing or literary publications on campus?",
+        "Would you explain is there a literary magazine to me?",
+        "Merrimack publications",
+        "Tell me about writing",
+        "publications?"
+      ],
+      "responses": [
+        "Yes, Merrimack has several student publications including a literary magazine, student newspaper, and various department-specific journals. These provide opportunities for students to publish their writing, gain editing experience, and develop their creative and journalistic skills."
+      ]
+    },
+    {
+      "tag": "language_courses",
+      "patterns": [
+        "Does Merrimack teach French?",
+        "Do you have info on what language courses are offered?",
+        "Can you tell me does merrimack teach french?",
+        "Can you tell me can i study spanish at merrimack?",
+        "Could you explain what language courses are offered?",
+        "Can I find out more about what language courses are offered?",
+        "How does Merrimack handle what foreign languages can i learn?",
+        "Do you have info on does merrimack teach french?",
+        "Can I study Spanish at Merrimack?",
+        "I'd like to know which languages are available to study.",
+        "Can you tell me what foreign languages can i learn?",
+        "What can you tell me about can i study spanish at merrimack?",
+        "Is there anything special about does merrimack teach french?",
+        "What should I know about what language courses are offered?",
+        "What can you tell me about which languages are available to study?",
+        "Merrimack courses",
+        "courses at Merrimack",
+        "courses?",
+        "What is language?",
+        "language at Merrimack"
+      ],
+      "responses": [
+        "Merrimack's language offerings include Spanish, Italian, and French. These courses focus on both language acquisition and cultural understanding, with opportunities for conversation practice, language clubs, and study abroad experiences to enhance fluency."
+      ]
+    },
+    {
+      "tag": "showcase_opportunities",
+      "patterns": [
+        "I'd like to know are there opportunities to showcase student art or performances.",
+        "Are there opportunities to showcase student art or performances?",
+        "How does Merrimack handle are there opportunities to showcase student art or performances?",
+        "Do you have info on where can students display their artwork?",
+        "Can I find out more about where can students display their artwork?",
+        "I'd like to know are there student art exhibitions.",
+        "Would you explain are there student art exhibitions to me?",
+        "opportunities?",
+        "Does Merrimack hold student art shows?",
+        "What is opportunities?",
+        "Could you explain are there opportunities to showcase student art or performances?",
+        "What can you tell me about where can students display their artwork?",
+        "What can you tell me about are there student art exhibitions?",
+        "What can you tell me about can students showcase their performances?",
+        "Would you explain where can students display their artwork to me?",
+        "How does Merrimack handle where can students display their artwork?",
+        "What can you tell me about are there opportunities to showcase student art or performances?",
+        "Info on showcase",
+        "Tell me about opportunities",
+        "Merrimack opportunities"
+      ],
+      "responses": [
+        "Merrimack provides numerous opportunities for students to showcase their creative works throughout the academic year. This includes student art exhibitions, performance showcases, concerts, plays, and digital media presentations. The Rogers Center regularly features student work, and various campus venues host student exhibitions and performances."
+      ]
+    },
+    {
+      "tag": "business_programs",
+      "patterns": [
+        "Can I find out more about what business majors are available?",
+        "What can you tell me about does merrimack have a good business program?",
+        "What should I know about what business programs does merrimack offer?",
+        "Could you explain tell me about the business school?",
+        "I'd like to know what business majors are available.",
+        "What should I know about tell me about the business school?",
+        "What is business?",
+        "Merrimack programs",
+        "Can I find out more about what can i study in the business school?",
+        "Is there anything special about what can i study in the business school?",
+        "Info on business",
+        "Tell me about programs",
+        "Can you tell me tell me about the business school?",
+        "What can you tell me about what business programs does merrimack offer?",
+        "Could you explain what business majors are available?",
+        "How does Merrimack handle does merrimack have a good business program?",
+        "I'd like to know what can i study in the business school.",
+        "Do you have info on what can i study in the business school?",
+        "What business majors are available?",
+        "What is programs?"
+      ],
+      "responses": [
+        "Merrimack's Girard School of Business offers programs in Accounting, Finance, Management, Marketing, and Sports Management, among others. The curriculum combines theoretical knowledge with practical applications and professional development opportunities."
+      ]
+    },
+    {
+      "tag": "business_real_companies",
+      "patterns": [
+        "Can you tell me can i work with actual businesses as a student?",
+        "How does Merrimack handle do students solve real business problems?",
+        "What is real?",
+        "Can I find out more about do students solve real business problems?",
+        "Is there anything special about can i work with actual businesses as a student?",
+        "What is business?",
+        "Do students solve real business problems?",
+        "companies?",
+        "Are there opportunities for business students to work with real companies?",
+        "What should I know about can i work with actual businesses as a student?",
+        "Do business students get real-world experience?",
+        "Info on business",
+        "real at Merrimack",
+        "Could you explain do business students get real-world experience?",
+        "What is companies?",
+        "real?",
+        "Is there anything special about do business students get real-world experience?",
+        "What can you tell me about are there business partnerships with companies?",
+        "What should I know about do business students get real-world experience?",
+        "Tell me about real"
+      ],
+      "responses": [
+        "Yes, business students frequently engage with real businesses through Merrimack's cooperative education program, case competitions, consulting projects, and industry partnerships. These experiences allow students to apply classroom knowledge to actual business challenges and develop professional connections."
+      ]
+    },
+    {
+      "tag": "business_internships",
+      "patterns": [
+        "Is there anything special about can you get good business internships?",
+        "Could you explain what companies hire merrimack interns?",
+        "What should I know about what internship opportunities exist for business majors?",
+        "Merrimack internships",
+        "Could you explain what kind of business-related internships do students typically get?",
+        "What should I know about what kind of business-related internships do students typically get?",
+        "Is there anything special about what companies hire merrimack interns?",
+        "What is business?",
+        "I'd like to know can you get good business internships.",
+        "Can I find out more about where do business students intern?",
+        "What should I know about where do business students intern?",
+        "Do you have info on what internship opportunities exist for business majors?",
+        "Can you tell me what companies hire merrimack interns?",
+        "I'd like to know what internship opportunities exist for business majors.",
+        "Is there anything special about where do business students intern?",
+        "Could you explain can you get good business internships?",
+        "Info on business",
+        "Do you have info on what kind of business-related internships do students typically get?",
+        "Info on internships",
+        "What is internships?"
+      ],
+      "responses": [
+        "The Professional Development Center connects business students with internships at companies ranging from local businesses to Fortune 500 corporations. Common placements include financial services firms, marketing agencies, sports organizations, accounting firms, and healthcare administration. These internships often lead to full-time job offers after graduation."
+      ]
+    },
+    {
+      "tag": "entrepreneurship_programs",
+      "patterns": [
+        "Would you explain can i learn about starting a business to me?",
+        "What can you tell me about are there entrepreneurship courses?",
+        "Are there entrepreneurship courses?",
+        "I'd like to know can i learn about starting a business.",
+        "Do you have info on does merrimack support student startups?",
+        "I'd like to know does merrimack support student startups.",
+        "Can I find out more about what resources exist for entrepreneurs?",
+        "What resources exist for entrepreneurs?",
+        "Do you have info on does merrimack have any entrepreneurship programs or resources?",
+        "Could you explain does merrimack have any entrepreneurship programs or resources?",
+        "Can I find out more about does merrimack have any entrepreneurship programs or resources?",
+        "Merrimack programs",
+        "entrepreneurship at Merrimack",
+        "Tell me about entrepreneurship",
+        "Could you explain are there entrepreneurship courses?",
+        "Tell me about programs",
+        "Could you explain does merrimack support student startups?",
+        "Do you have info on are there entrepreneurship courses?",
+        "Do you have info on what resources exist for entrepreneurs?",
+        "What is programs?"
+      ],
+      "responses": [
+        "Merrimack's Center for Entrepreneurship provides resources for student startups, including mentorship, workshops, pitch competitions, and funding opportunities. The entrepreneurship curriculum offers courses in business planning, innovation, and venture creation. Student entrepreneurs can also access networking events with successful business leaders and alumni."
+      ]
+    },
+    {
+      "tag": "business_industry_connections",
+      "patterns": [
+        "Merrimack connections",
+        "What should I know about how does the business school connect with industry professionals?",
+        "Can I find out more about how does the business school connect with industry professionals?",
+        "Are there business speakers or events?",
+        "connections?",
+        "Do you have info on are there business speakers or events?",
+        "Do you have info on do industry professionals visit campus?",
+        "What can you tell me about how does the business school connect with industry professionals?",
+        "What is business?",
+        "Tell me about industry",
+        "I'd like to know how does the business school connect with industry professionals.",
+        "Would you explain how does the business school connect with industry professionals to me?",
+        "Can you tell me do industry professionals visit campus?",
+        "Can you tell me how do students network with companies?",
+        "What is industry?",
+        "What should I know about do industry professionals visit campus?",
+        "What can you tell me about how do students network with companies?",
+        "Info on business",
+        "Is there anything special about how do students network with companies?",
+        "Would you explain do industry professionals visit campus to me?"
+      ],
+      "responses": [
+        "The Girard School regularly hosts industry speakers and networking events, giving students valuable professional connections. Executive guest lectures, career fairs, alumni panels, and industry site visits facilitate meaningful interactions with business professionals. Faculty often have industry experience and maintain connections that benefit students."
+      ]
+    },
+    {
+      "tag": "stem_programs",
+      "patterns": [
+        "What is stem?",
+        "Is there anything special about tell me about science and math programs?",
+        "What can I study in STEM fields?",
+        "What can you tell me about what stem programs does merrimack offer?",
+        "Can you tell me what science majors are available?",
+        "What can you tell me about does merrimack have engineering programs?",
+        "What STEM programs does Merrimack offer?",
+        "Could you explain does merrimack have engineering programs?",
+        "Merrimack programs",
+        "Do you have info on what stem programs does merrimack offer?",
+        "What should I know about does merrimack have engineering programs?",
+        "How does Merrimack handle tell me about science and math programs?",
+        "Tell me about stem",
+        "Is there anything special about what stem programs does merrimack offer?",
+        "Would you explain does merrimack have engineering programs to me?",
+        "Does Merrimack have engineering programs?",
+        "Tell me about programs",
+        "How does Merrimack handle what can i study in stem fields?",
+        "I'd like to know what science majors are available.",
+        "stem at Merrimack"
+      ],
+      "responses": [
+        "Merrimack offers comprehensive STEM programs including various Engineering disciplines (Civil, Electrical, Mechanical, and Computer), Computer Science, Data Science, Biology, Chemistry, Mathematics, and Physics. These programs emphasize both theoretical foundations and practical applications through laboratory experiences and research opportunities."
+      ]
+    },
+    {
+      "tag": "engineering_specialties",
+      "patterns": [
+        "Would you explain what are the engineering specialties available to me?",
+        "Do you have info on what engineering degrees are offered?",
+        "What should I know about what types of engineering can i study?",
+        "What can you tell me about what engineering degrees are offered?",
+        "Is there anything special about what are the engineering specialties available?",
+        "Can I find out more about what are the engineering specialties available?",
+        "Do you have info on does merrimack have electrical engineering?",
+        "Do you have info on can i study mechanical engineering?",
+        "Is there anything special about can i study mechanical engineering?",
+        "What should I know about can i study mechanical engineering?",
+        "Info on specialties",
+        "engineering at Merrimack",
+        "I'd like to know can i study mechanical engineering.",
+        "Tell me about engineering",
+        "Do you have info on what are the engineering specialties available?",
+        "Can I study mechanical engineering?",
+        "Could you explain can i study mechanical engineering?",
+        "What can you tell me about what types of engineering can i study?",
+        "What is specialties?",
+        "Merrimack specialties"
+      ],
+      "responses": [
+        "Merrimack offers several engineering specialties including Civil Engineering, Electrical Engineering, Mechanical Engineering, and Computer Engineering. These programs feature hands-on design projects throughout all four years, industry partnerships, and opportunities for specialization through electives and research."
+      ]
+    },
+    {
+      "tag": "coding_languages",
+      "patterns": [
+        "How does Merrimack handle will i learn java or c++?",
+        "languages?",
+        "Does Merrimack teach Python?",
+        "Can I find out more about which programming languages will i learn?",
+        "Would you explain will i learn java or c++ to me?",
+        "I'd like to know what coding languages do ecs students learn.",
+        "Would you explain what coding languages do ecs students learn to me?",
+        "What coding languages do ECS students learn?",
+        "What is coding?",
+        "What should I know about what coding languages are taught in computer science courses?",
+        "Can you tell me which programming languages will i learn?",
+        "Could you explain which programming languages will i learn?",
+        "coding at Merrimack",
+        "What should I know about which programming languages will i learn?",
+        "Info on coding",
+        "What should I know about does merrimack teach python?",
+        "I'd like to know will i learn java or c++.",
+        "Merrimack languages",
+        "Do you have info on what coding languages do ecs students learn?",
+        "Tell me about coding"
+      ],
+      "responses": [
+        "The Computer Science curriculum covers languages like Python, Java, and C++, providing a solid foundation in both object-oriented and procedural programming. Advanced courses include specialized languages relevant to areas like web development, data science, artificial intelligence, and systems programming."
+      ]
+    },
+    {
+      "tag": "science_labs",
+      "patterns": [
+        "Is there anything special about how much lab work is there?",
+        "Could you explain do students get good lab experience?",
+        "What is labs?",
+        "Can you tell me are labs well-equipped?",
+        "What should I know about what are the science laboratories like?",
+        "Do students get good lab experience?",
+        "I'd like to know what are the science laboratories like.",
+        "What can you tell me about how hands-on are the science labs?",
+        "Would you explain how much lab work is there to me?",
+        "Tell me about labs",
+        "Merrimack science",
+        "What can you tell me about what are the science laboratories like?",
+        "Can I find out more about how much lab work is there?",
+        "Can I find out more about do students get good lab experience?",
+        "Can I find out more about are labs well-equipped?",
+        "How does Merrimack handle do students get good lab experience?",
+        "Would you explain how hands-on are the science labs to me?",
+        "What should I know about how hands-on are the science labs?",
+        "labs at Merrimack",
+        "What is science?"
+      ],
+      "responses": [
+        "Merrimack's well-equipped science labs provide extensive hands-on experience. Students engage in experimental design, data collection and analysis, and research techniques using modern instrumentation. Small lab sections ensure personalized attention and maximize hands-on time with equipment."
+      ]
+    },
+    {
+      "tag": "stem_research",
+      "patterns": [
+        "Could you explain how do i get involved in science research?",
+        "Would you explain are there research opportunities in the sciences to me?",
+        "Can you tell me can stem students do research?",
+        "What is stem?",
+        "Could you explain do professors involve students in research?",
+        "Can I find out more about can stem students do research?",
+        "Can you tell me do professors involve students in research?",
+        "Tell me about stem",
+        "I'd like to know do professors involve students in research.",
+        "Are there research opportunities in the sciences?",
+        "Is there anything special about do professors involve students in research?",
+        "Could you explain are there research opportunities in the sciences?",
+        "Would you explain what research can i do in engineering to me?",
+        "What can you tell me about are there research opportunities in the sciences?",
+        "Can you tell me how do i get involved in science research?",
+        "Could you explain what research can i do in engineering?",
+        "stem at Merrimack",
+        "Is there anything special about what research can i do in engineering?",
+        "research?",
+        "research at Merrimack"
+      ],
+      "responses": [
+        "STEM students have access to numerous research opportunities beginning as early as freshman year. Faculty actively involve students in their research projects, and students can pursue independent research through honors theses, summer research programs, and research-focused courses. Many students present their findings at conferences and contribute to publications."
+      ]
+    },
+    {
+      "tag": "stem_technology_resources",
+      "patterns": [
+        "What is stem?",
+        "What should I know about does merrimack have modern technology for science?",
+        "How does Merrimack handle what software do stem students have access to?",
+        "Could you explain are there computer labs for stem majors?",
+        "I'd like to know does merrimack have modern technology for science.",
+        "Info on technology",
+        "Tell me about resources",
+        "resources at Merrimack",
+        "What should I know about what technology resources are available to stem students?",
+        "Could you explain what software do stem students have access to?",
+        "Do you have info on what software do stem students have access to?",
+        "Can you tell me what technology resources are available to stem students?",
+        "What can you tell me about does merrimack have modern technology for science?",
+        "Tell me about stem",
+        "technology?",
+        "Are there computer labs for STEM majors?",
+        "What can you tell me about what kind of equipment do engineering students use?",
+        "I'd like to know what software do stem students have access to.",
+        "Merrimack technology",
+        "What software do STEM students have access to?"
+      ],
+      "responses": [
+        "STEM students have access to specialized facilities including engineering labs, a makerspace, computer labs with field-specific software, and advanced scientific instrumentation. Resources include 3D printers, CNC machines, robotics equipment, circuit design tools, simulation software, and computational resources for data analysis and modeling."
+      ]
+    },
+    {
+      "tag": "health_science_programs",
+      "patterns": [
+        "Could you explain what health majors can i choose from?",
+        "Is there anything special about does merrimack have pre-med?",
+        "How does Merrimack handle what healthcare degrees are available?",
+        "Do you have info on what healthcare degrees are available?",
+        "I'd like to know what healthcare degrees are available.",
+        "Would you explain does merrimack have pre-med to me?",
+        "What health majors can I choose from?",
+        "Merrimack programs",
+        "What can you tell me about what health majors can i choose from?",
+        "I'd like to know does merrimack have pre-med.",
+        "Do you have info on what health majors can i choose from?",
+        "What is health?",
+        "Is there anything special about what health majors can i choose from?",
+        "Merrimack science",
+        "Tell me about programs",
+        "How does Merrimack handle can i study nursing at merrimack?",
+        "How does Merrimack handle does merrimack have pre-med?",
+        "I'd like to know can i study nursing at merrimack.",
+        "What can you tell me about does merrimack have pre-med?",
+        "What is programs?"
+      ],
+      "responses": [
+        "Merrimack's School of Health Sciences offers programs in Nursing, Public Health, Exercise Science, Athletic Training, Health Science, and Nutritional Sciences. These programs prepare students for various healthcare careers through a combination of rigorous coursework and clinical experiences."
+      ]
+    },
+    {
+      "tag": "nursing_facilities",
+      "patterns": [
+        "Info on facilities",
+        "Tell me about nursing",
+        "facilities at Merrimack",
+        "Is there anything special about does merrimack have simulation labs for nursing?",
+        "I'd like to know what kind of labs do nursing students use.",
+        "What can you tell me about what kind of labs do nursing students use?",
+        "How does Merrimack handle what resources do nursing students have?",
+        "What resources do nursing students have?",
+        "I'd like to know what resources do nursing students have.",
+        "What can you tell me about what resources do nursing students have?",
+        "What is nursing?",
+        "What should I know about what kind of labs do nursing students use?",
+        "nursing at Merrimack",
+        "What should I know about how are the nursing facilities at merrimack?",
+        "Could you explain what resources do nursing students have?",
+        "Tell me about facilities",
+        "Can I find out more about what resources do nursing students have?",
+        "I'd like to know does merrimack have simulation labs for nursing.",
+        "Is there anything special about are the nursing facilities good?",
+        "How are the nursing facilities at Merrimack?"
+      ],
+      "responses": [
+        "Merrimack's state-of-the-art Clinical Simulation Center features high-fidelity simulation labs where nursing and health science students gain practical experience. These facilities include realistic hospital and clinical environments with advanced patient simulators, allowing students to develop skills in a safe, controlled setting before working with actual patients."
+      ]
+    },
+    {
+      "tag": "clinical_opportunities",
+      "patterns": [
+        "Could you explain where do nursing students do clinical rotations?",
+        "I'd like to know what hospitals work with merrimack.",
+        "Merrimack clinical",
+        "How does Merrimack handle how do students get clinical practice?",
+        "clinical?",
+        "Info on clinical",
+        "I'd like to know how do students get clinical practice.",
+        "opportunities?",
+        "What is opportunities?",
+        "How does Merrimack handle what hospitals work with merrimack?",
+        "Could you explain what clinical opportunities are available for health science students?",
+        "I'd like to know where do nursing students do clinical rotations.",
+        "What hospitals work with Merrimack?",
+        "Do you have info on what hospitals work with merrimack?",
+        "Can I find out more about what clinical opportunities are available for health science students?",
+        "Can you tell me do health science students get hands-on experience?",
+        "How do students get clinical practice?",
+        "Can I find out more about how do students get clinical practice?",
+        "How does Merrimack handle where do nursing students do clinical rotations?",
+        "What can you tell me about what clinical opportunities are available for health science students?"
+      ],
+      "responses": [
+        "Students complete clinical rotations at leading hospitals and healthcare facilities throughout Massachusetts. These placements provide hands-on experience in diverse specialties and healthcare settings. Merrimack maintains strong partnerships with regional medical centers, community hospitals, clinics, and rehabilitation facilities."
+      ]
+    },
+    {
+      "tag": "nclex_pass_rate",
+      "patterns": [
+        "What is nclex?",
+        "Do you have info on what percentage pass the nursing board exam?",
+        "Tell me about pass",
+        "Can you tell me are merrimack nurses well prepared for nclex?",
+        "What should I know about what percentage pass the nursing board exam?",
+        "How does Merrimack handle how do nursing graduates do on the nclex?",
+        "I'd like to know is merrimack's nursing program successful.",
+        "How does Merrimack handle are merrimack nurses well prepared for nclex?",
+        "Can I find out more about what's the nclex pass rate for nursing students?",
+        "Do you have info on how do nursing graduates do on the nclex?",
+        "Can I find out more about what percentage pass the nursing board exam?",
+        "Could you explain is merrimack's nursing program successful?",
+        "Would you explain what's the nclex pass rate for nursing students to me?",
+        "nclex at Merrimack",
+        "Merrimack nclex",
+        "What should I know about is merrimack's nursing program successful?",
+        "What is pass?",
+        "How do nursing graduates do on the NCLEX?",
+        "What percentage pass the nursing board exam?",
+        "pass?"
+      ],
+      "responses": [
+        "Merrimack's nursing program boasts strong NCLEX pass rates that consistently exceed the national average. This success reflects the program's rigorous curriculum, experienced faculty, comprehensive clinical experiences, and dedicated NCLEX preparation resources."
+      ]
+    },
+    {
+      "tag": "exercise_science_programs",
+      "patterns": [
+        "What should I know about is there an exercise physiology major?",
+        "Is there anything special about what programs exist for sports science?",
+        "I'd like to know is there an exercise physiology major.",
+        "What can you tell me about is there an exercise physiology major?",
+        "What can you tell me about does merrimack offer athletic training?",
+        "How does Merrimack handle are there exercise science or athletic training programs?",
+        "Can I find out more about what programs exist for sports science?",
+        "Merrimack programs",
+        "Do you have info on is there an exercise physiology major?",
+        "Can I find out more about is there an exercise physiology major?",
+        "Would you explain what programs exist for sports science to me?",
+        "Merrimack exercise",
+        "I'd like to know what programs exist for sports science.",
+        "Do you have info on are there exercise science or athletic training programs?",
+        "How does Merrimack handle does merrimack offer athletic training?",
+        "Could you explain is there an exercise physiology major?",
+        "Could you explain does merrimack offer athletic training?",
+        "Merrimack science",
+        "Tell me about programs",
+        "What is programs?"
+      ],
+      "responses": [
+        "Yes, Merrimack offers both Exercise Science and Athletic Training programs. The Exercise Science program prepares students for careers in fitness, wellness, and rehabilitation, while the Athletic Training program focuses on injury prevention, assessment, and rehabilitation. Both programs feature extensive hands-on learning and professional practice opportunities."
+      ]
+    },
+    {
+      "tag": "social_science_majors",
+      "patterns": [
+        "Could you explain what programs are in the school of liberal arts?",
+        "Can you tell me does merrimack have psychology?",
+        "I'd like to know is there a sociology program.",
+        "Is there anything special about what programs are in the school of liberal arts?",
+        "Would you explain what social science majors are offered at merrimack to me?",
+        "Info on majors",
+        "What should I know about what can i study in social sciences?",
+        "I'd like to know what social science majors are offered at merrimack.",
+        "What should I know about what social science majors are offered at merrimack?",
+        "social?",
+        "Can I find out more about is there a sociology program?",
+        "What can you tell me about is there a sociology program?",
+        "What can you tell me about what programs are in the school of liberal arts?",
+        "What can you tell me about does merrimack have psychology?",
+        "How does Merrimack handle is there a sociology program?",
+        "What programs are in the School of Liberal Arts?",
+        "Would you explain does merrimack have psychology to me?",
+        "Merrimack science",
+        "Info on social",
+        "social at Merrimack"
+      ],
+      "responses": [
+        "Merrimack offers robust social science programs including Psychology, Sociology, Political Science, Criminal Justice, Human Development, Education, Social Work, and Communication. These programs combine theoretical foundations with practical applications and field experiences."
+      ]
+    },
+    {
+      "tag": "psychology_research",
+      "patterns": [
+        "What can you tell me about do psychology students work in labs?",
+        "Would you explain can psychology majors do research to me?",
+        "Do you have info on do psychology students work in labs?",
+        "Would you explain are there opportunities for psychology students to conduct research to me?",
+        "Could you explain are there psychology experiments at merrimack?",
+        "What should I know about do psychology students work in labs?",
+        "I'd like to know can psychology majors do research.",
+        "Can you tell me do psychology students work in labs?",
+        "Could you explain do psychology students work in labs?",
+        "What can you tell me about are there psychology experiments at merrimack?",
+        "Do you have info on what research can i do in psychology?",
+        "Could you explain what research can i do in psychology?",
+        "Can I find out more about are there opportunities for psychology students to conduct research?",
+        "Can I find out more about what research can i do in psychology?",
+        "Tell me about psychology",
+        "How does Merrimack handle are there opportunities for psychology students to conduct research?",
+        "psychology?",
+        "research?",
+        "research at Merrimack",
+        "What is research?"
+      ],
+      "responses": [
+        "Psychology students can conduct research in our specialized labs under faculty supervision. Opportunities include cognitive research, social psychology studies, developmental research, and clinical psychology projects. Many students present their work at conferences and some continue research through independent studies and honors theses."
+      ]
+    },
+    {
+      "tag": "education_field_experience",
+      "patterns": [
+        "Is there anything special about how much practical experience do education majors get?",
+        "field?",
+        "Can you tell me do education majors get classroom experience?",
+        "experience at Merrimack",
+        "I'd like to know what field experiences are available for education or social work students.",
+        "Can I find out more about what field experiences are available for education or social work students?",
+        "What can you tell me about do education majors get classroom experience?",
+        "Do education majors get classroom experience?",
+        "What should I know about do social work students have internships?",
+        "education?",
+        "Could you explain how much practical experience do education majors get?",
+        "How does Merrimack handle what field experiences are available for education or social work students?",
+        "Can you tell me do social work students have internships?",
+        "Can you tell me when do education students start teaching?",
+        "Could you explain when do education students start teaching?",
+        "Can you tell me how much practical experience do education majors get?",
+        "Is there anything special about what field experiences are available for education or social work students?",
+        "How does Merrimack handle do social work students have internships?",
+        "Merrimack education",
+        "What is field?"
+      ],
+      "responses": [
+        "Education and Social Work majors gain extensive field experience through practicums and internships in local schools and community organizations. Education students begin classroom observations early in their program, progressing to student teaching in their final semesters. Social Work students complete field placements in various social service settings, accumulating hundreds of supervised practice hours."
+      ]
+    },
+    {
+      "tag": "communication_program",
+      "patterns": [
+        "How does Merrimack handle can i study journalism or broadcasting?",
+        "I'd like to know what's in the communication curriculum.",
+        "Do you have info on how is the communication program structured?",
+        "communication?",
+        "Would you explain what do communication majors study to me?",
+        "What should I know about does merrimack have media studies?",
+        "Would you explain how is the communication program structured to me?",
+        "Could you explain can i study journalism or broadcasting?",
+        "I'd like to know how is the communication program structured.",
+        "What can you tell me about does merrimack have media studies?",
+        "Is there anything special about can i study journalism or broadcasting?",
+        "What is program?",
+        "Is there anything special about how is the communication program structured?",
+        "program?",
+        "Merrimack program",
+        "Do you have info on what do communication majors study?",
+        "Can you tell me how is the communication program structured?",
+        "What can you tell me about how is the communication program structured?",
+        "Would you explain what's in the communication curriculum to me?",
+        "Tell me about program"
+      ],
+      "responses": [
+        "The Communication program balances theoretical knowledge with practical skills in digital media, journalism, and public relations. Students can specialize in areas like media production, strategic communication, or sports communication. The curriculum includes hands-on projects, internships, and opportunities to work with campus media outlets."
+      ]
+    },
+    {
+      "tag": "study_abroad",
+      "patterns": [
+        "I'd like to know are there study abroad programs related to international studies.",
+        "Tell me about abroad",
+        "Can I find out more about are there study abroad programs related to international studies?",
+        "What should I know about are there international opportunities?",
+        "Is there anything special about are there international opportunities?",
+        "Is there anything special about are there study abroad programs related to international studies?",
+        "Do you have info on can i study abroad at merrimack?",
+        "Is there anything special about what countries can i study in?",
+        "How does Merrimack handle are there study abroad programs related to international studies?",
+        "What should I know about are there study abroad programs related to international studies?",
+        "study at Merrimack",
+        "Do you have info on are there international opportunities?",
+        "What can you tell me about are there international opportunities?",
+        "How long are study abroad programs?",
+        "What can you tell me about are there study abroad programs related to international studies?",
+        "Would you explain can i study abroad at merrimack to me?",
+        "How does Merrimack handle what countries can i study in?",
+        "Merrimack abroad",
+        "Info on study",
+        "study?"
+      ],
+      "responses": [
+        "International Studies students can participate in numerous study abroad opportunities tailored to their academic interests. Options range from semester and year-long programs to shorter faculty-led trips during winter and summer breaks. Merrimack has partner institutions around the world, offering programs in various languages and academic disciplines."
+      ]
+    },
+    {
+      "tag": "career_services",
+      "patterns": [
+        "How does Merrimack handle what career services are available to students?",
+        "Can you tell me do they help with resumes and interviews?",
+        "Is there anything special about is there help with job searching?",
+        "I'd like to know what does the career center offer.",
+        "Merrimack career",
+        "Do you have info on how does career services help students?",
+        "Would you explain what career services are available to students to me?",
+        "Can you tell me is there help with job searching?",
+        "services?",
+        "Can you tell me what does the career center offer?",
+        "Is there anything special about what does the career center offer?",
+        "Do they help with resumes and interviews?",
+        "What is career?",
+        "Could you explain do they help with resumes and interviews?",
+        "What should I know about how does career services help students?",
+        "Can I find out more about what career services are available to students?",
+        "services at Merrimack",
+        "What can you tell me about do they help with resumes and interviews?",
+        "Can you tell me what career services are available to students?",
+        "Info on services"
+      ],
+      "responses": [
+        "The O'Brien Center for Career Development serves students across all majors with services including resume building, interview preparation, career counseling, and job search assistance. They offer one-on-one appointments, workshops, job fairs, networking events, and access to extensive job and internship databases."
+      ]
+    },
+    {
+      "tag": "finding_internships",
+      "patterns": [
+        "Merrimack internships",
+        "What can you tell me about how do students find internships?",
+        "I'd like to know how does the internship process work.",
+        "Are internships guaranteed?",
+        "Would you explain how do students find internships to me?",
+        "I'd like to know where can i get internship help.",
+        "Could you explain how does the internship process work?",
+        "What can you tell me about where can i get internship help?",
+        "What should I know about does merrimack help secure internships?",
+        "Is there anything special about how does the internship process work?",
+        "Do you have info on where can i get internship help?",
+        "What should I know about how does the internship process work?",
+        "I'd like to know are internships guaranteed.",
+        "How do students find internships?",
+        "How does Merrimack handle where can i get internship help?",
+        "Can I find out more about how do students find internships?",
+        "What is finding?",
+        "Info on internships",
+        "Tell me about finding",
+        "What is internships?"
+      ],
+      "responses": [
+        "Students find internships through our dedicated internship coordinators, career fairs, and our extensive employer network. The O'Brien Center maintains an online job and internship portal, hosts employers on campus, and helps students with applications and interview preparation. Faculty and alumni connections also help students secure valuable internship experiences."
+      ]
+    },
+    {
+      "tag": "recruiting_companies",
+      "patterns": [
+        "Do you have info on which employers hire merrimack graduates?",
+        "Merrimack recruiting",
+        "Which employers hire Merrimack graduates?",
+        "Can you tell me where do graduates typically work?",
+        "Is there anything special about what companies typically recruit from merrimack?",
+        "I'd like to know what industries recruit merrimack students.",
+        "Can you tell me do big companies recruit on campus?",
+        "What can you tell me about do big companies recruit on campus?",
+        "How does Merrimack handle which employers hire merrimack graduates?",
+        "Could you explain where do graduates typically work?",
+        "companies?",
+        "What should I know about which employers hire merrimack graduates?",
+        "Can I find out more about where do graduates typically work?",
+        "What can you tell me about which employers hire merrimack graduates?",
+        "What is recruiting?",
+        "Do you have info on what companies typically recruit from merrimack?",
+        "Is there anything special about do big companies recruit on campus?",
+        "What is companies?",
+        "Can I find out more about which employers hire merrimack graduates?",
+        "Merrimack companies"
+      ],
+      "responses": [
+        "Companies recruiting from Merrimack span diverse industries including finance, healthcare, technology, education, and non-profits. Regular recruiters include major accounting firms, financial institutions, engineering companies, healthcare systems, government agencies, and Fortune 500 corporations. Many local and regional employers also actively recruit Merrimack graduates."
+      ]
+    },
+    {
+      "tag": "obrien_center_help",
+      "patterns": [
+        "What is help?",
+        "Is there anything special about how can the career center help me?",
+        "Would you explain what resources does the career center offer to me?",
+        "What should I know about how can the career center help me?",
+        "What is obrien?",
+        "Merrimack obrien",
+        "Can you tell me what services does the o'brien center provide?",
+        "What can you tell me about what resources does the career center offer?",
+        "Merrimack center",
+        "Is there anything special about what services does the o'brien center provide?",
+        "Could you explain what resources does the career center offer?",
+        "Is there anything special about does the o'brien center help with job placement?",
+        "Can you tell me does the o'brien center help with job placement?",
+        "Do you have info on how does the o'brien center help with career preparation?",
+        "Do you have info on what resources does the career center offer?",
+        "What services does the O'Brien Center provide?",
+        "center?",
+        "Can I find out more about how does the o'brien center help with career preparation?",
+        "center at Merrimack",
+        "Tell me about obrien"
+      ],
+      "responses": [
+        "The O'Brien Center provides comprehensive career development services including resume and cover letter reviews, mock interviews, career assessments, job and internship search assistance, and networking opportunities. They work with students from freshman year through graduation to develop professional skills, explore career paths, and connect with employers."
+      ]
+    },
+    {
+      "tag": "job_placement_rate",
+      "patterns": [
+        "What can you tell me about what's the job placement rate for merrimack graduates?",
+        "Is there anything special about how many graduates find jobs?",
+        "I'd like to know what percentage of students get jobs after graduation.",
+        "Could you explain do most graduates find employment quickly?",
+        "Can you tell me how successful are merrimack graduates?",
+        "Do you have info on how successful are merrimack graduates?",
+        "Can you tell me do most graduates find employment quickly?",
+        "What should I know about what's the job placement rate for merrimack graduates?",
+        "What is job?",
+        "Do most graduates find employment quickly?",
+        "What percentage of students get jobs after graduation?",
+        "Can I find out more about how many graduates find jobs?",
+        "Tell me about job",
+        "How does Merrimack handle do most graduates find employment quickly?",
+        "What can you tell me about do most graduates find employment quickly?",
+        "Do you have info on what percentage of students get jobs after graduation?",
+        "How successful are Merrimack graduates?",
+        "Merrimack rate",
+        "Info on placement",
+        "Merrimack job"
+      ],
+      "responses": [
+        "Merrimack boasts a 97% employment or graduate school placement rate within nine months of graduation. This success reflects our career-focused education, strong employer connections, and comprehensive career preparation services. Outcomes vary by field, but graduates across all majors achieve strong placement rates."
+      ]
+    },
+    {
+      "tag": "alumni_networking",
+      "patterns": [
+        "What should I know about are there alumni mentorship programs?",
+        "Is there anything special about are there networking opportunities with alumni?",
+        "I'd like to know how strong is the alumni network.",
+        "Do you have info on how can i connect with merrimack alumni?",
+        "Do alumni help current students?",
+        "Can you tell me how can i connect with merrimack alumni?",
+        "Could you explain how strong is the alumni network?",
+        "Can you tell me do alumni help current students?",
+        "Could you explain are there networking opportunities with alumni?",
+        "What can you tell me about how can i connect with merrimack alumni?",
+        "Are there networking opportunities with alumni?",
+        "Are there alumni mentorship programs?",
+        "Would you explain how can i connect with merrimack alumni to me?",
+        "What can you tell me about do alumni help current students?",
+        "I'd like to know are there networking opportunities with alumni.",
+        "Merrimack alumni",
+        "Info on alumni",
+        "What is alumni?",
+        "What is networking?",
+        "Merrimack networking"
+      ],
+      "responses": [
+        "Our strong alumni network provides valuable connections through networking events, mentorship programs, and industry panels. The Alumni Relations office facilitates connections between current students and graduates working in their fields of interest. Many alumni return to campus to recruit, offer internships, or participate in career panels and networking events."
+      ]
+    },
+    {
+      "tag": "clubs_organizations",
+      "patterns": [
+        "Can I find out more about what student organizations can i join?",
+        "Could you explain how many student clubs are there?",
+        "Can I find out more about are there engineering clubs?",
+        "Is there anything special about what student organizations can i join?",
+        "What clubs and organizations are available on campus?",
+        "Can I find out more about what activities exist outside of class?",
+        "Do you have info on what clubs and organizations are available on campus?",
+        "What should I know about how many student clubs are there?",
+        "Can you tell me what activities exist outside of class?",
+        "How does Merrimack handle what clubs and organizations are available on campus?",
+        "I'd like to know how many student clubs are there.",
+        "Info on clubs",
+        "Would you explain how many student clubs are there to me?",
+        "What should I know about what activities exist outside of class?",
+        "Would you explain what clubs and organizations are available on campus to me?",
+        "I'd like to know what student organizations can i join.",
+        "Merrimack organizations",
+        "clubs?",
+        "What is organizations?",
+        "clubs at Merrimack"
+      ],
+      "responses": [
+        "Merrimack offers over 60 clubs and organizations covering academic interests, cultural groups, performing arts, service, and special interests. These include professional organizations, academic clubs, student government, religious groups, performing arts ensembles, recreational clubs, and cultural organizations. New clubs can be formed based on student interest."
+      ]
+    },
+    {
+      "tag": "housing_options",
+      "patterns": [
+        "What is housing?",
+        "How does Merrimack handle what are the dorms like?",
+        "Can I find out more about what are the dorms like?",
+        "Would you explain are there apartments for upperclassmen to me?",
+        "Is there anything special about are there apartments for upperclassmen?",
+        "How does Merrimack handle are there apartments for upperclassmen?",
+        "Info on housing",
+        "Where do students live on campus?",
+        "What should I know about where do students live on campus?",
+        "What should I know about are there apartments for upperclassmen?",
+        "options?",
+        "Tell me about options",
+        "What should I know about what are the housing options for students?",
+        "Are there apartments for upperclassmen?",
+        "Can freshmen choose their dorm?",
+        "Would you explain what are the dorms like to me?",
+        "I'd like to know what are the housing options for students.",
+        "Do you have info on what are the housing options for students?",
+        "I'd like to know where do students live on campus.",
+        "housing at Merrimack"
+      ],
+      "responses": [
+        "Housing options range from traditional residence halls for first-year students to apartments and townhouses for upperclassmen. First-year students typically live in corridor-style or suite-style residence halls with roommates. Upperclassmen can choose from various apartment-style living options with single rooms and more independence. All housing includes amenities like laundry facilities, common spaces, and WiFi."
+      ]
+    },
+    {
+      "tag": "dining_options",
+      "patterns": [
+        "Would you explain how's the food on campus? what meal plans are available to me?",
+        "What should I know about are there different dining halls?",
+        "Can you tell me is the campus food good?",
+        "How does Merrimack handle are there different dining halls?",
+        "How does Merrimack handle where can students eat on campus?",
+        "Is there anything special about is the campus food good?",
+        "Do you have info on is the campus food good?",
+        "Can I find out more about how's the food on campus? what meal plans are available?",
+        "I'd like to know what meal options are there.",
+        "What should I know about what meal options are there?",
+        "Is the campus food good?",
+        "What should I know about where can students eat on campus?",
+        "Info on dining",
+        "Could you explain how's the food on campus? what meal plans are available?",
+        "Do you have info on how's the food on campus? what meal plans are available?",
+        "Can you tell me what meal options are there?",
+        "options?",
+        "Tell me about options",
+        "dining at Merrimack",
+        "What is dining?"
+      ],
+      "responses": [
+        "Our dining services include Sparky's Place (main dining hall), the Warriors' Den, and several cafes across campus with flexible meal plans. Dining options feature a variety of cuisines including made-to-order stations, international options, salad bars, and accommodations for dietary restrictions. Meal plans range from unlimited access to more flexible block plans with dining dollars."
+      ]
+    },
+    {
+      "tag": "recreational_facilities",
+      "patterns": [
+        "Can you tell me what athletic facilities can students use?",
+        "How does Merrimack handle what recreational facilities does merrimack have?",
+        "Is there anything special about what athletic facilities can students use?",
+        "Can I find out more about what athletic facilities can students use?",
+        "Info on facilities",
+        "I'd like to know does merrimack have good recreational centers.",
+        "facilities at Merrimack",
+        "Do you have info on what athletic facilities can students use?",
+        "Tell me about recreational",
+        "Can you tell me what recreational facilities does merrimack have?",
+        "I'd like to know are there places to work out.",
+        "How does Merrimack handle are there places to work out?",
+        "What should I know about what athletic facilities can students use?",
+        "Can you tell me does merrimack have good recreational centers?",
+        "What athletic facilities can students use?",
+        "Is there anything special about is there a gym on campus?",
+        "Are there places to work out?",
+        "Does Merrimack have good recreational centers?",
+        "Tell me about facilities",
+        "Info on recreational"
+      ],
+      "responses": [
+        "The Sakowich Campus Center houses fitness facilities including a gym, workout equipment, and group exercise classes. The campus also features athletic fields, tennis courts, a track, and the Merrimack Athletics Complex with additional fitness resources. Students have access to intramural facilities and spaces for both organized and casual recreation."
+      ]
+    },
+    {
+      "tag": "campus_events",
+      "patterns": [
+        "What can you tell me about what campus events can i attend?",
+        "What should I know about what kinds of events happen on campus?",
+        "Tell me about campus",
+        "Do you have info on what kinds of events happen on campus?",
+        "How does Merrimack handle does merrimack have concerts or speakers?",
+        "Merrimack events",
+        "Can you tell me does merrimack have concerts or speakers?",
+        "Could you explain what kinds of events happen on campus?",
+        "Is there anything special about what campus events can i attend?",
+        "How does Merrimack handle are there student activities?",
+        "Could you explain what's happening on campus during weekends?",
+        "campus?",
+        "Info on campus",
+        "Could you explain are there student activities?",
+        "Would you explain are there student activities to me?",
+        "Can I find out more about what's happening on campus during weekends?",
+        "How does Merrimack handle what's happening on campus during weekends?",
+        "Can you tell me are there student activities?",
+        "Tell me about events",
+        "campus at Merrimack"
+      ],
+      "responses": [
+        "Throughout the year, the campus hosts concerts, guest speakers, cultural celebrations, and traditional events like Homecoming and Spring Weekend. Regular activities include movie nights, game tournaments, comedy shows, cultural festivals, and student performances. The Office of Student Involvement coordinates many events, while academic departments host lectures and specialized programs."
+      ]
+    },
+    {
+      "tag": "fitness_options",
+      "patterns": [
+        "Can you tell me does merrimack have a fitness center?",
+        "How does Merrimack handle are there fitness options on campus?",
+        "What can you tell me about can i take exercise classes?",
+        "Can I find out more about are there fitness options on campus?",
+        "Does Merrimack have a fitness center?",
+        "Would you explain are there workout classes available to me?",
+        "Merrimack fitness",
+        "Do you have info on can i take exercise classes?",
+        "Could you explain what fitness programs are offered?",
+        "Can you tell me can i take exercise classes?",
+        "Is there anything special about what fitness programs are offered?",
+        "Can you tell me are there fitness options on campus?",
+        "options?",
+        "Would you explain does merrimack have a fitness center to me?",
+        "Tell me about options",
+        "Info on fitness",
+        "Could you explain are there workout classes available?",
+        "Would you explain what fitness programs are offered to me?",
+        "Would you explain are there fitness options on campus to me?",
+        "fitness at Merrimack"
+      ],
+      "responses": [
+        "Merrimack offers diverse fitness options including a well-equipped fitness center, group exercise classes, personal training services, and intramural sports. The recreation program includes yoga, HIIT workouts, spin classes, and other fitness activities. Outdoor recreation opportunities are also available through various clubs and campus programs."
+      ]
+    },
+    {
+      "tag": "academic_support",
+      "patterns": [
+        "Can you tell me what academic support services are available?",
+        "I'd like to know how can i get academic assistance.",
+        "Could you explain how can i get academic assistance?",
+        "I'd like to know what academic support services are available.",
+        "Can you tell me where can i get help with coursework?",
+        "Can I find out more about is there tutoring on campus?",
+        "How does Merrimack handle how can i get academic assistance?",
+        "Info on academic",
+        "Can I find out more about where can i get help with coursework?",
+        "Do you have info on what academic support services are available?",
+        "What is academic?",
+        "Can I find out more about what academic resources exist?",
+        "What can you tell me about what academic resources exist?",
+        "Is there tutoring on campus?",
+        "Is there anything special about is there tutoring on campus?",
+        "Is there anything special about what academic support services are available?",
+        "What is support?",
+        "Tell me about academic",
+        "Can I find out more about what academic support services are available?",
+        "support?"
+      ],
+      "responses": [
+        "Merrimack provides comprehensive support services including the Academic Success Center, which offers tutoring across all disciplines, study skills workshops, and academic coaching. These resources help students develop effective study strategies, prepare for exams, and master course content through both individual and group sessions."
+      ]
+    },
+    {
+      "tag": "tutoring_availability",
+      "patterns": [
+        "Could you explain how do i get a tutor?",
+        "I'd like to know is tutoring free.",
+        "What should I know about are there tutors for engineering classes?",
+        "What can you tell me about are there tutors for engineering classes?",
+        "Is there anything special about how do i get a tutor?",
+        "How does Merrimack handle can i get help with math courses?",
+        "Would you explain is there tutoring available for different subjects to me?",
+        "Is there anything special about can i get help with math courses?",
+        "Do you have info on are there tutors for engineering classes?",
+        "What is tutoring?",
+        "tutoring at Merrimack",
+        "Is there tutoring available for different subjects?",
+        "Is there anything special about are there tutors for engineering classes?",
+        "Can you tell me how do i get a tutor?",
+        "Can you tell me are there tutors for engineering classes?",
+        "I'd like to know is there tutoring available for different subjects.",
+        "Merrimack availability",
+        "What should I know about how do i get a tutor?",
+        "availability at Merrimack",
+        "What is availability?"
+      ],
+      "responses": [
+        "Yes, tutoring is available across all disciplines through the Academic Success Center. Tutoring services include both peer and professional tutors, covering subjects from mathematics and sciences to humanities and business courses. Sessions can be scheduled as needed or on a regular basis, and most tutoring services are provided free of charge."
+      ]
+    },
+    {
+      "tag": "disability_resources",
+      "patterns": [
+        "How does Merrimack accommodate disabilities?",
+        "Tell me about resources",
+        "Can you tell me is there an accessibility office?",
+        "Could you explain how does merrimack accommodate disabilities?",
+        "Is there anything special about what disability services are offered?",
+        "resources at Merrimack",
+        "Could you explain what disability services are offered?",
+        "What should I know about how does merrimack accommodate disabilities?",
+        "Is there anything special about how do i get accommodations for a disability?",
+        "I'd like to know how does merrimack accommodate disabilities.",
+        "I'd like to know is there an accessibility office.",
+        "How does Merrimack handle how does merrimack accommodate disabilities?",
+        "What can you tell me about what resources exist for students with disabilities?",
+        "Could you explain is there an accessibility office?",
+        "How does Merrimack handle is there an accessibility office?",
+        "What can you tell me about is there an accessibility office?",
+        "Is there anything special about how does merrimack accommodate disabilities?",
+        "What is resources?",
+        "disability at Merrimack",
+        "resources?"
+      ],
+      "responses": [
+        "The Accessibility Services Office ensures accommodations for students with disabilities. They provide services such as extended time for exams, note-taking assistance, alternative formats for materials, assistive technology, and specialized academic advising. The office works individually with students to develop appropriate accommodation plans based on their specific needs."
+      ]
+    },
+    {
+      "tag": "mental_health_services",
+      "patterns": [
+        "What should I know about are there mental health services on campus?",
+        "Could you explain can students see a counselor?",
+        "Can I find out more about what psychological services are available?",
+        "How does Merrimack handle are there mental health services on campus?",
+        "Can you tell me can students see a counselor?",
+        "What can you tell me about is there therapy for students?",
+        "Can I find out more about how does merrimack support mental health?",
+        "How does Merrimack handle can students see a counselor?",
+        "Would you explain can students see a counselor to me?",
+        "Is there anything special about how does merrimack support mental health?",
+        "Would you explain how does merrimack support mental health to me?",
+        "Tell me about mental",
+        "services?",
+        "What is health?",
+        "I'd like to know are there mental health services on campus.",
+        "Do you have info on how does merrimack support mental health?",
+        "Can I find out more about can students see a counselor?",
+        "Are there mental health services on campus?",
+        "services at Merrimack",
+        "Info on services"
+      ],
+      "responses": [
+        "The Hamel Health and Counseling Center provides physical and mental health services including individual counseling and wellness programs. Professional counselors offer therapy for issues such as anxiety, depression, stress management, and adjustment difficulties. Services are confidential and include both short-term counseling and referrals for long-term care when needed."
+      ]
+    },
+    {
+      "tag": "advising_support",
+      "patterns": [
+        "Would you explain who helps with course selection to me?",
+        "Is advising required for students?",
+        "Can I find out more about do students have advisors?",
+        "What should I know about is advising required for students?",
+        "Could you explain who helps with course selection?",
+        "How does Merrimack handle what advising support do students receive?",
+        "I'd like to know how does academic advising work.",
+        "What should I know about do students have advisors?",
+        "What can you tell me about how does academic advising work?",
+        "Would you explain is advising required for students to me?",
+        "I'd like to know is advising required for students.",
+        "advising at Merrimack",
+        "How does Merrimack handle is advising required for students?",
+        "advising?",
+        "Do you have info on how does academic advising work?",
+        "I'd like to know do students have advisors.",
+        "How does Merrimack handle how does academic advising work?",
+        "What is support?",
+        "support?",
+        "Tell me about support"
+      ],
+      "responses": [
+        "Each student is assigned both a professional academic advisor and a faculty advisor within their major. Advisors help with course selection, degree planning, academic challenges, and connecting to campus resources. Regular advising meetings ensure students stay on track with degree requirements and receive guidance tailored to their academic goals."
+      ]
+    },
+    {
+      "tag": "writing_center",
+      "patterns": [
+        "I'd like to know are there writing tutors available.",
+        "Do you have info on are there writing tutors available?",
+        "How does Merrimack handle where can i get help with papers?",
+        "Could you explain are there writing tutors available?",
+        "Are there writing tutors available?",
+        "writing?",
+        "Can you tell me is there a writing center or other academic resources?",
+        "What can you tell me about how can i improve my writing?",
+        "Can I find out more about is there a writing center or other academic resources?",
+        "Where can I get help with papers?",
+        "What is writing?",
+        "Merrimack center",
+        "Can you tell me where can i get help with papers?",
+        "Is there anything special about where can i get help with papers?",
+        "Would you explain how can i improve my writing to me?",
+        "center?",
+        "Does Merrimack have a writing lab?",
+        "What should I know about where can i get help with papers?",
+        "Can you tell me does merrimack have a writing lab?",
+        "center at Merrimack"
+      ],
+      "responses": [
+        "Additional resources include the Writing Center, Math Center, and peer mentoring programs to support student success. The Writing Center offers one-on-one consultations at any stage of the writing process, from brainstorming to final revisions. These specialized centers complement the broader tutoring services with focused assistance in these crucial academic areas."
+      ]
+    },
+    {
+      "tag": "student_diversity",
+      "patterns": [
+        "I'd like to know is merrimack diverse.",
+        "How diverse is Merrimack's student body?",
+        "I'd like to know how diverse is merrimack's student body.",
+        "What should I know about is merrimack diverse?",
+        "Could you explain is merrimack diverse?",
+        "Can you tell me what's the diversity like on campus?",
+        "Is there anything special about what's the diversity like on campus?",
+        "Info on student",
+        "Can you tell me is there good representation of different backgrounds?",
+        "Could you explain is there good representation of different backgrounds?",
+        "Is there anything special about is merrimack diverse?",
+        "Can you tell me what's the cultural diversity percentage?",
+        "Do you have info on what's the cultural diversity percentage?",
+        "What can you tell me about how diverse is merrimack's student body?",
+        "How does Merrimack handle what's the cultural diversity percentage?",
+        "Is there anything special about is there good representation of different backgrounds?",
+        "Tell me about student",
+        "diversity?",
+        "What is student?",
+        "Merrimack diversity"
+      ],
+      "responses": [
+        "Merrimack is committed to fostering a diverse and inclusive community. The student body includes individuals from various geographic, socioeconomic, cultural, and religious backgrounds. The college continues to increase diversity through focused recruitment efforts and support services designed to ensure the success of students from all backgrounds."
+      ]
+    },
+    {
+      "tag": "international_student_resources",
+      "patterns": [
+        "Tell me about resources",
+        "Can you tell me are there international student advisors?",
+        "Could you explain is there an international student office?",
+        "Would you explain how does merrimack support international students to me?",
+        "I'd like to know what resources exist for international students.",
+        "Do you have info on what resources exist for international students?",
+        "How does Merrimack handle what resources exist for international students?",
+        "What should I know about what resources exist for international students?",
+        "What should I know about how does merrimack support international students?",
+        "Would you explain what resources exist for international students to me?",
+        "Do you have info on is there an international student office?",
+        "What should I know about is there an international student office?",
+        "I'd like to know what help do international students get.",
+        "Do you have info on are there international student advisors?",
+        "Is there anything special about are there international student advisors?",
+        "I'd like to know how does merrimack support international students.",
+        "Merrimack international",
+        "resources at Merrimack",
+        "Tell me about student",
+        "Info on student"
+      ],
+      "responses": [
+        "International students receive specialized assistance through the Office of Global Education. Services include immigration advising, cultural adjustment support, orientation programs, and academic resources specific to international students' needs. The office helps with visa matters, employment regulations, cultural transitions, and connecting international students with the broader campus community."
+      ]
+    },
+    {
+      "tag": "multicultural_organizations",
+      "patterns": [
+        "How does Merrimack handle what multicultural activities are available?",
+        "I'd like to know are there diversity groups.",
+        "multicultural at Merrimack",
+        "Do you have info on are there diversity groups?",
+        "Would you explain are there multicultural organizations on campus to me?",
+        "Can you tell me what cultural clubs exist?",
+        "I'd like to know can i join cultural organizations.",
+        "Could you explain are there diversity groups?",
+        "Is there anything special about can i join cultural organizations?",
+        "Would you explain what cultural clubs exist to me?",
+        "What is multicultural?",
+        "Can I find out more about what cultural clubs exist?",
+        "Could you explain what cultural clubs exist?",
+        "Do you have info on are there multicultural organizations on campus?",
+        "Can you tell me are there multicultural organizations on campus?",
+        "Can I find out more about can i join cultural organizations?",
+        "Merrimack organizations",
+        "Info on multicultural",
+        "What is organizations?",
+        "multicultural?"
+      ],
+      "responses": [
+        "The campus features various multicultural student organizations, interfaith prayer spaces, and the LGBTQ+ Resource Room. Student groups celebrate different cultural heritages, promote cultural awareness, and create supportive communities. These organizations host cultural events, educational programs, and social activities open to all students interested in cultural exchange and diversity."
+      ]
+    },
+    {
+      "tag": "different_backgrounds_support",
+      "patterns": [
+        "What should I know about how inclusive is merrimack?",
+        "Is there anything special about how does the college support minorities?",
+        "Would you explain are there programs for underrepresented students to me?",
+        "different?",
+        "I'd like to know how inclusive is merrimack.",
+        "Can you tell me are there programs for underrepresented students?",
+        "Is there anything special about how does merrimack support students from different backgrounds?",
+        "Are there programs for underrepresented students?",
+        "Do you have info on how does the college support minorities?",
+        "How does Merrimack handle how inclusive is merrimack?",
+        "Would you explain how does merrimack support students from different backgrounds to me?",
+        "backgrounds?",
+        "Could you explain what diversity initiatives exist?",
+        "What can you tell me about how inclusive is merrimack?",
+        "What should I know about how does merrimack support students from different backgrounds?",
+        "How inclusive is Merrimack?",
+        "Do you have info on what diversity initiatives exist?",
+        "different at Merrimack",
+        "Tell me about backgrounds",
+        "What is backgrounds?"
+      ],
+      "responses": [
+        "The Office of Intercultural Initiatives provides programming, mentorship, and support for students from all backgrounds. Their initiatives include diversity education workshops, intercultural dialogue programs, leadership development opportunities, and targeted support for underrepresented student populations. The office collaborates with academic departments and student organizations to foster an inclusive campus environment."
+      ]
+    },
+    {
+      "tag": "religious_resources",
+      "patterns": [
+        "Tell me about resources",
+        "Can I find out more about how does merrimack support different faiths?",
+        "What should I know about what spiritual options exist?",
+        "Can you tell me are there places for prayer on campus?",
+        "resources at Merrimack",
+        "Could you explain does merrimack have religious services?",
+        "Do you have info on what religious or faith-based resources are available?",
+        "Could you explain are there places for prayer on campus?",
+        "What should I know about how does merrimack support different faiths?",
+        "Info on religious",
+        "Could you explain what religious or faith-based resources are available?",
+        "Do you have info on what spiritual options exist?",
+        "What spiritual options exist?",
+        "What religious or faith-based resources are available?",
+        "What should I know about are there places for prayer on campus?",
+        "What can you tell me about are there places for prayer on campus?",
+        "Could you explain what spiritual options exist?",
+        "Do you have info on are there places for prayer on campus?",
+        "What is resources?",
+        "resources?"
+      ],
+      "responses": [
+        "As a Catholic Augustinian college, Merrimack welcomes students of all faiths and backgrounds, offering interfaith programs through Campus Ministry. Facilities include a chapel, meditation spaces, and interfaith prayer rooms. Campus Ministry provides spiritual counseling, worship services, interfaith dialogues, and community service opportunities for students of diverse religious traditions."
+      ]
+    },
+    {
+      "tag": "lgbtq_inclusivity",
+      "patterns": [
+        "lgbtq at Merrimack",
+        "Info on inclusivity",
+        "What should I know about how inclusive is campus for lgbtq+ students?",
+        "How does Merrimack handle are there lgbtq resources?",
+        "What should I know about are there lgbtq resources?",
+        "How does Merrimack handle is merrimack lgbtq friendly?",
+        "Can you tell me is merrimack lgbtq friendly?",
+        "Tell me about lgbtq",
+        "I'd like to know is merrimack lgbtq friendly.",
+        "Merrimack lgbtq",
+        "Would you explain is merrimack lgbtq friendly to me?",
+        "Can I find out more about what support exists for lgbtq students?",
+        "Can I find out more about is there an lgbtq center or group?",
+        "Do you have info on are there lgbtq resources?",
+        "Can I find out more about how inclusive is campus for lgbtq+ students?",
+        "Is there an LGBTQ center or group?",
+        "Can you tell me what support exists for lgbtq students?",
+        "I'd like to know how inclusive is campus for lgbtq+ students.",
+        "Can I find out more about is merrimack lgbtq friendly?",
+        "inclusivity at Merrimack"
+      ],
+      "responses": [
+        "Merrimack provides an inclusive environment for LGBTQ+ students through resources like the LGBTQ+ Resource Room, support groups, educational programming, and campus policies that protect against discrimination. Student organizations, ally training programs, and LGBTQ+ focused events promote awareness and create supportive communities for students of all gender identities and sexual orientations."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "Is there anything special about how does financial aid work at merrimack?",
+        "How do I apply for financial aid?",
+        "Can I find out more about does merrimack offer good financial aid?",
+        "Would you explain can i get help paying for college to me?",
+        "Can you tell me what financial assistance is available?",
+        "Would you explain what financial assistance is available to me?",
+        "Would you explain how does financial aid work at merrimack to me?",
+        "Merrimack financial",
+        "What can you tell me about what financial assistance is available?",
+        "Merrimack aid",
+        "Is there anything special about does merrimack offer good financial aid?",
+        "Info on financial",
+        "Could you explain how does financial aid work at merrimack?",
+        "Can I find out more about how do i apply for financial aid?",
+        "How does Merrimack handle can i get help paying for college?",
+        "Would you explain does merrimack offer good financial aid to me?",
+        "How does Merrimack handle how do i apply for financial aid?",
+        "Can I find out more about how does financial aid work at merrimack?",
+        "aid?",
+        "What is financial?"
+      ],
+      "responses": [
+        "I can provide general information about Merrimack's financial structures, but for specific details, you should speak with representatives from the Financial Aid Office. Merrimack offers various aid options determined through the FAFSA process, including need-based grants, scholarships, work-study, and loans. The Financial Aid Office provides personalized guidance throughout this process."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Does Merrimack offer academic scholarships?",
+        "Would you explain what scholarship amounts are typical to me?",
+        "Tell me about scholarships",
+        "scholarships?",
+        "I'd like to know what scholarship amounts are typical.",
+        "Is there anything special about what scholarship amounts are typical?",
+        "Could you explain how do i get a scholarship?",
+        "Are there merit scholarships?",
+        "I'd like to know how do i get a scholarship.",
+        "Would you explain what kinds of scholarships are available to me?",
+        "I'd like to know are there merit scholarships.",
+        "Can I find out more about does merrimack offer academic scholarships?",
+        "Is there anything special about does merrimack offer academic scholarships?",
+        "Merrimack scholarships",
+        "What is scholarships?",
+        "What can you tell me about what kinds of scholarships are available?",
+        "Can I find out more about are there merit scholarships?",
+        "Would you explain are there merit scholarships to me?",
+        "I'd like to know does merrimack offer academic scholarships.",
+        "Info on scholarships"
+      ],
+      "responses": [
+        "Merrimack offers various merit scholarships and need-based aid. Merit scholarships recognize academic achievement, leadership, and special talents, with awards ranging from partial to substantial tuition coverage. Additional scholarship opportunities include athletic scholarships, departmental awards, and scholarships for specific populations. The Financial Aid Office can provide details about eligibility criteria and application processes."
+      ]
+    },
+    {
+      "tag": "tuition_information",
+      "patterns": [
+        "Do you have info on how much is tuition and what does it cover?",
+        "What can you tell me about what are the costs to attend merrimack?",
+        "Do you have info on what's the total cost of attendance?",
+        "Tell me about information",
+        "I'd like to know what are the costs to attend merrimack.",
+        "Could you explain what fees are there besides tuition?",
+        "Can I find out more about what fees are there besides tuition?",
+        "How does Merrimack handle what are the costs to attend merrimack?",
+        "Do you have info on what fees are there besides tuition?",
+        "What are the costs to attend Merrimack?",
+        "Is there anything special about what are the costs to attend merrimack?",
+        "Is there anything special about how much does a year at merrimack cost?",
+        "information at Merrimack",
+        "Could you explain how much is tuition and what does it cover?",
+        "How does Merrimack handle what's the total cost of attendance?",
+        "Would you explain how much does a year at merrimack cost to me?",
+        "What should I know about what fees are there besides tuition?",
+        "What is information?",
+        "Merrimack information",
+        "Tell me about tuition"
+      ],
+      "responses": [
+        "For current tuition rates, payment options, and deposit information, I recommend visiting the Bursar's Office website or speaking with a financial aid counselor who can provide personalized guidance. Tuition typically covers academic instruction, while additional fees may apply for housing, meals, activity fees, and course-specific materials."
+      ]
+    },
+    {
+      "tag": "tuition_deposit",
+      "patterns": [
+        "How much is the enrollment deposit?",
+        "When is the deposit due?",
+        "Tell me about deposit",
+        "Is there anything special about where do i pay my deposit?",
+        "What can you tell me about how much is the enrollment deposit?",
+        "What can you tell me about when is the deposit due?",
+        "Can you tell me how much is the enrollment deposit?",
+        "Can I find out more about is the tuition deposit refundable?",
+        "Is the tuition deposit refundable?",
+        "Can you tell me where do i pay my deposit?",
+        "What should I know about where do i pay my deposit?",
+        "Do you have info on is the tuition deposit refundable?",
+        "Can I find out more about how do i make a tuition deposit?",
+        "How does Merrimack handle when is the deposit due?",
+        "Could you explain where do i pay my deposit?",
+        "What can you tell me about where do i pay my deposit?",
+        "Merrimack deposit",
+        "Tell me about tuition",
+        "Info on tuition",
+        "Merrimack tuition"
+      ],
+      "responses": [
+        "For specifics about tuition deposits, please speak with representatives from the Admissions Office during your campus visit. They can guide you through the enrollment portal where deposits are submitted and explain deadlines, amounts, and how deposits are applied to your student account."
+      ]
+    },
+    {
+      "tag": "payment_plans",
+      "patterns": [
+        "Is there anything special about can i pay tuition in installments?",
+        "I'd like to know does merrimack offer monthly payments.",
+        "What should I know about does merrimack offer monthly payments?",
+        "Do you have info on can i pay tuition in installments?",
+        "Could you explain how do payment plans work?",
+        "What are the payment options?",
+        "Does Merrimack offer monthly payments?",
+        "Can you tell me how do payment plans work?",
+        "How does Merrimack handle how do payment plans work?",
+        "Can you tell me can i pay tuition in installments?",
+        "Tell me about payment",
+        "Merrimack plans",
+        "Can you tell me what are the payment options?",
+        "Can I find out more about does merrimack offer monthly payments?",
+        "plans?",
+        "Is there anything special about are there payment plans available?",
+        "Is there anything special about does merrimack offer monthly payments?",
+        "What can you tell me about does merrimack offer monthly payments?",
+        "payment?",
+        "Info on plans"
+      ],
+      "responses": [
+        "Yes, Merrimack offers payment plan options that allow families to spread costs over multiple installments rather than paying the full balance at once. The Bursar's Office can provide details about enrollment procedures, payment schedules, and any associated fees for these plans. Representatives can explain all available payment methods and help determine which option best suits your family's needs."
+      ]
+    },
+    {
+      "tag": "warriors_at_work",
+      "patterns": [
+        "What should I know about is warriors at work like work-study?",
+        "What should I know about can i participate in warriors at work?",
+        "warriors at Merrimack",
+        "Would you explain how does warriors at work function to me?",
+        "Tell me about work",
+        "Can I find out more about what's the warriors at work program?",
+        "Info on warriors",
+        "How does Merrimack handle can i participate in warriors at work?",
+        "Is there anything special about what's the warriors at work program?",
+        "Is there anything special about is warriors at work like work-study?",
+        "Can you tell me can i participate in warriors at work?",
+        "How does Merrimack handle tell me about the work program at merrimack?",
+        "Is there anything special about tell me about the work program at merrimack?",
+        "What is at?",
+        "Tell me about the work program at Merrimack",
+        "Merrimack at",
+        "Could you explain can i participate in warriors at work?",
+        "Is there anything special about can i participate in warriors at work?",
+        "Can you tell me is warriors at work like work-study?",
+        "How does Merrimack handle is warriors at work like work-study?"
+      ],
+      "responses": [
+        "The Warriors at Work program is a distinctive work-study opportunity that provides valuable professional experience. It allows students to earn money while gaining relevant work experience on campus in positions related to their academic interests and career goals. For detailed information about eligibility, available positions, and application procedures, I recommend speaking with representatives from the O'Brien Center."
+      ]
+    },
+    {
+      "tag": "campus_transportation",
+      "patterns": [
+        "I'd like to know how do students travel between campuses.",
+        "Merrimack transportation",
+        "Tell me about campus",
+        "Can you tell me how do students get around campus?",
+        "How does Merrimack handle is there a shuttle between different parts of campus?",
+        "What should I know about how do students travel between campuses?",
+        "Info on campus",
+        "campus?",
+        "Do you have info on is a car necessary at merrimack?",
+        "What is transportation?",
+        "What can you tell me about how do students travel between campuses?",
+        "Could you explain is there a shuttle between different parts of campus?",
+        "How do students get around campus?",
+        "How does Merrimack handle how far is it to walk across campus?",
+        "I'd like to know how do students get around campus.",
+        "Is there anything special about how do students get around campus?",
+        "I'd like to know is a car necessary at merrimack.",
+        "Is there anything special about is a car necessary at merrimack?",
+        "Would you explain is a car necessary at merrimack to me?",
+        "campus at Merrimack"
+      ],
+      "responses": [
+        "Merrimack's main campus is compact and walkable, with most buildings within a 10-15 minute walk. A campus shuttle service runs regularly between North Campus and South Campus, where our science and engineering facilities are located. Most students find walking sufficient for daily transportation needs, though bicycles are also popular for getting around campus."
+      ]
+    },
+    {
+      "tag": "campus_shuttle",
+      "patterns": [
+        "I'd like to know where does the shuttle go.",
+        "shuttle at Merrimack",
+        "Tell me about campus",
+        "What should I know about is there transportation between campuses?",
+        "Would you explain how often does the campus shuttle run to me?",
+        "Can you tell me where does the shuttle go?",
+        "How does Merrimack handle is there a shuttle between different parts of campus?",
+        "Can I find out more about where does the shuttle go?",
+        "campus?",
+        "Info on campus",
+        "Is there anything special about is there transportation between campuses?",
+        "How often does the campus shuttle run?",
+        "Is there anything special about how often does the campus shuttle run?",
+        "Could you explain is there a shuttle between different parts of campus?",
+        "Do you have info on how often does the campus shuttle run?",
+        "Is there anything special about do i need to take a shuttle to classes?",
+        "What can you tell me about how often does the campus shuttle run?",
+        "Could you explain where does the shuttle go?",
+        "campus at Merrimack",
+        "Tell me about shuttle"
+      ],
+      "responses": [
+        "A campus shuttle service runs regularly between North Campus and South Campus, where our science and engineering facilities are located. The shuttle operates on a set schedule during class days with more frequent service during peak class transition times. This service is free for all students and helps reduce travel time between the main campus and the academic buildings on South Campus."
+      ]
+    },
+    {
+      "tag": "building_distances",
+      "patterns": [
+        "What can you tell me about will i be able to get to class on time?",
+        "What can you tell me about how far is it between academic buildings and residence halls?",
+        "Can I find out more about is the campus spread out?",
+        "Can I find out more about how far is it between academic buildings and residence halls?",
+        "building?",
+        "Do you have info on will i be able to get to class on time?",
+        "What should I know about how long does it take to walk across campus?",
+        "Do you have info on how far is it between academic buildings and residence halls?",
+        "Is there anything special about how long does it take to walk across campus?",
+        "What is distances?",
+        "How does Merrimack handle will i be able to get to class on time?",
+        "Can I find out more about are classes far from dorms?",
+        "What can you tell me about how long does it take to walk across campus?",
+        "Could you explain how long does it take to walk across campus?",
+        "building at Merrimack",
+        "What should I know about are classes far from dorms?",
+        "Is there anything special about is the campus spread out?",
+        "Could you explain are classes far from dorms?",
+        "Info on distances",
+        "Info on building"
+      ],
+      "responses": [
+        "Most buildings are within a 10-15 minute walk of each other. Residential areas are distributed throughout campus, with first-year housing typically clustered together. The central academic buildings are generally within a 5-10 minute walk from residence halls, making it convenient to return to your room between classes if desired."
+      ]
+    },
+    {
+      "tag": "main_facilities_location",
+      "patterns": [
+        "I'd like to know how is the campus laid out.",
+        "I'd like to know where is the library on campus.",
+        "Could you explain how is the campus laid out?",
+        "I'd like to know where are academic buildings located.",
+        "How is the campus laid out?",
+        "Do you have info on what's the campus geography like?",
+        "Info on facilities",
+        "Is there anything special about what's the campus geography like?",
+        "facilities at Merrimack",
+        "I'd like to know what's the campus geography like.",
+        "Merrimack location",
+        "Can you tell me where is the library on campus?",
+        "What should I know about where is the library on campus?",
+        "How does Merrimack handle where are academic buildings located?",
+        "What is location?",
+        "Could you explain where are academic buildings located?",
+        "Where are the main facilities located?",
+        "Can you tell me where are academic buildings located?",
+        "Is there anything special about where are academic buildings located?",
+        "Tell me about facilities"
+      ],
+      "responses": [
+        "The McQuade Library, Sakowich Campus Center, and most administrative buildings are centrally located. Academic buildings are organized by school or discipline, with most liberal arts and business facilities on the main campus and science and engineering buildings on South Campus. Residential areas are distributed across campus, with dining facilities strategically located for convenient access."
+      ]
+    },
+    {
+      "tag": "parking_availability",
+      "patterns": [
+        "Could you explain is parking available for students?",
+        "Can I find out more about is parking available for students?",
+        "Is parking available for students?",
+        "How does Merrimack handle is it hard to find parking?",
+        "Would you explain can freshmen have cars to me?",
+        "Could you explain can freshmen have cars?",
+        "Would you explain how much is a parking permit to me?",
+        "Would you explain is it hard to find parking to me?",
+        "Can you tell me can freshmen have cars?",
+        "Can I find out more about how much is a parking permit?",
+        "Merrimack parking",
+        "I'd like to know is it hard to find parking.",
+        "I'd like to know can freshmen have cars.",
+        "Merrimack availability",
+        "Is there anything special about where can students park on campus?",
+        "Is there anything special about how much is a parking permit?",
+        "availability at Merrimack",
+        "How does Merrimack handle is parking available for students?",
+        "What is availability?",
+        "Tell me about availability"
+      ],
+      "responses": [
+        "Parking is available for students with permits. Different lots are designated for residents and commuters, with specific areas assigned based on class year and housing location. Parking permit information, including costs and application procedures, is available through the Police Services office. First-year students can bring cars to campus with an approved permit."
+      ]
+    },
+    {
+      "tag": "campus_transportation_options",
+      "patterns": [
+        "I'd like to know how do students travel between campuses.",
+        "What should I know about is there a bus service to nearby areas?",
+        "Tell me about campus",
+        "Merrimack transportation",
+        "How do students get to off-campus locations?",
+        "Could you explain is there a bus service to nearby areas?",
+        "Is there a bus service to nearby areas?",
+        "What should I know about how do students travel between campuses?",
+        "What can you tell me about how do students get to off-campus locations?",
+        "Can students get to town without a car?",
+        "campus?",
+        "Info on campus",
+        "Can I find out more about is there a bus service to nearby areas?",
+        "options?",
+        "Tell me about options",
+        "Do you have info on is there public transportation near campus?",
+        "What can you tell me about how do students travel between campuses?",
+        "Would you explain is there public transportation near campus to me?",
+        "How does Merrimack handle is there a bus service to nearby areas?",
+        "What is transportation?"
+      ],
+      "responses": [
+        "The MACK Card provides access to local public transportation. The campus shuttle connects different parts of campus, while regional bus services offer transportation to nearby communities and train stations. For students without cars, ride-sharing services are readily available, and some campus organizations coordinate transportation for off-campus events and community service activities."
+      ]
+    },
+    {
+      "tag": "application_deadlines",
+      "patterns": [
+        "How does Merrimack handle applications?",
+        "Do you have info on deadlines?",
+        "Merrimack deadlines",
+        "deadlines at Merrimack",
+        "Could you explain application deadlines?",
+        "deadlines?",
+        "Do you have info on application?",
+        "What should I know about application deadline?",
+        "application at Merrimack",
+        "Info on application",
+        "What can you tell me about what's the deadline for fall admission?",
+        "Can you tell me what are the application deadlines?",
+        "How does Merrimack handle what's the deadline for fall admission?",
+        "Would you explain when is the application due to me?",
+        "Could you explain application deadline?",
+        "What should I know about application deadlines?",
+        "Would you explain deadline to me?",
+        "Would you explain application to me?",
+        "Can you tell me deadlines?",
+        "Merrimack application"
+      ],
+      "responses": [
+        "For specific admissions questions, I recommend speaking with the Admissions representatives during your campus visit today. They can provide the most current information about application deadlines for different decision plans, including Early Action, Early Decision, and Regular Decision timeframes."
+      ]
+    },
+    {
+      "tag": "enrollment_deposit",
+      "patterns": [
+        "Info on enrollment",
+        "Tell me about deposit",
+        "Can I find out more about how do i make an enrollment deposit?",
+        "Can I find out more about where do i submit my deposit?",
+        "Would you explain where do i submit my deposit to me?",
+        "How does Merrimack handle how do i make an enrollment deposit?",
+        "How does Merrimack handle how much is the deposit to attend?",
+        "Can I find out more about how much is the deposit to attend?",
+        "What can you tell me about how much is the deposit to attend?",
+        "I'd like to know where do i submit my deposit.",
+        "Is there anything special about when is the enrollment deposit due?",
+        "Do you have info on when is the enrollment deposit due?",
+        "Do you have info on where do i submit my deposit?",
+        "Can you tell me when is the enrollment deposit due?",
+        "Could you explain how do i make an enrollment deposit?",
+        "What can you tell me about when is the enrollment deposit due?",
+        "Merrimack deposit",
+        "Tell me about enrollment",
+        "Merrimack enrollment",
+        "enrollment?"
+      ],
+      "responses": [
+        "For information about enrollment deposits, please connect with Admissions representatives. They can guide you through the enrollment portal where deposits are submitted and explain what steps come after confirming your enrollment through the deposit process."
+      ]
+    },
+    {
+      "tag": "admission_requirements",
+      "patterns": [
+        "Could you explain what gpa do i need for admission?",
+        "Could you explain does merrimack require sat scores?",
+        "Would you explain what gpa do i need for admission to me?",
+        "What can you tell me about does merrimack require sat scores?",
+        "What can you tell me about what are the admission requirements?",
+        "Do you have info on what are the admission requirements?",
+        "Can you tell me what are the admission requirements?",
+        "Do you have info on what do i need to apply to merrimack?",
+        "requirements at Merrimack",
+        "Do you have info on does merrimack require sat scores?",
+        "Is there anything special about what does merrimack look for in applicants?",
+        "How does Merrimack handle what gpa do i need for admission?",
+        "Tell me about admission",
+        "Can you tell me what does merrimack look for in applicants?",
+        "What can you tell me about what gpa do i need for admission?",
+        "requirements?",
+        "Would you explain what are the admission requirements to me?",
+        "Info on admission",
+        "Would you explain what do i need to apply to merrimack to me?",
+        "Tell me about requirements"
+      ],
+      "responses": [
+        "Admissions representatives can provide detailed information about admission requirements, application components, and what makes a competitive application. They can address questions about test scores, GPA expectations, and how different factors are considered in the holistic review process."
+      ]
+    },
+    {
+      "tag": "transfer_credits",
+      "patterns": [
+        "Would you explain what's the maximum transferable credits to me?",
+        "Would you explain can i transfer credits from another school to me?",
+        "Could you explain do ap credits transfer to merrimack?",
+        "Can I find out more about what's the maximum transferable credits?",
+        "What can you tell me about can i transfer credits from another school?",
+        "I'd like to know will my community college credits transfer.",
+        "Is there anything special about do ap credits transfer to merrimack?",
+        "Do you have info on how does credit transfer work?",
+        "What can you tell me about do ap credits transfer to merrimack?",
+        "What can you tell me about what's the maximum transferable credits?",
+        "Can I transfer credits from another school?",
+        "How does credit transfer work?",
+        "What should I know about can i transfer credits from another school?",
+        "Would you explain how does credit transfer work to me?",
+        "Tell me about transfer",
+        "Do you have info on what's the maximum transferable credits?",
+        "credits at Merrimack",
+        "transfer at Merrimack",
+        "credits?",
+        "transfer?"
+      ],
+      "responses": [
+        "The Admissions Office can answer questions about transferring credits from other institutions and guide you through the evaluation process. They can provide information about transfer credit policies, articulation agreements with other colleges, and how credits from AP, IB, and dual enrollment courses are typically applied."
+      ]
+    },
+    {
+      "tag": "application_fee",
+      "patterns": [
+        "Is there anything special about how much does it cost to apply?",
+        "Can you tell me how much does it cost to apply?",
+        "Do you have info on how much does it cost to apply?",
+        "Can you tell me is there an application fee?",
+        "How much does it cost to apply?",
+        "Can you tell me can the application fee be waived?",
+        "Is there anything special about is there an application fee?",
+        "Would you explain how much does it cost to apply to me?",
+        "What can you tell me about do i have to pay to apply?",
+        "Do you have info on are application fee waivers available?",
+        "What should I know about is there an application fee?",
+        "Would you explain is there an application fee to me?",
+        "Could you explain can the application fee be waived?",
+        "fee?",
+        "Could you explain are application fee waivers available?",
+        "Can I find out more about do i have to pay to apply?",
+        "Info on fee",
+        "What is fee?",
+        "application at Merrimack",
+        "Info on application"
+      ],
+      "responses": [
+        "For information about application fees and potential fee waivers, please speak with Admissions representatives. They can explain the current fee structure and circumstances under which fee waivers might be granted based on financial need or other qualifying factors."
+      ]
+    },
+    {
+      "tag": "program_competitiveness",
+      "patterns": [
+        "Are some programs more selective than others?",
+        "Would you explain how competitive is admission to different programs to me?",
+        "Do you have info on is it harder to get into nursing?",
+        "Can I find out more about is it harder to get into nursing?",
+        "How does Merrimack handle is it harder to get into nursing?",
+        "Can I find out more about which majors are most competitive?",
+        "Could you explain are some programs more selective than others?",
+        "How does Merrimack handle how competitive is admission to different programs?",
+        "Is there anything special about is it harder to get into nursing?",
+        "Is there anything special about how competitive is admission to different programs?",
+        "What can you tell me about are some programs more selective than others?",
+        "Can I find out more about are some programs more selective than others?",
+        "What is program?",
+        "Merrimack program",
+        "competitiveness at Merrimack",
+        "program?",
+        "What are my chances of admission?",
+        "Can you tell me is it harder to get into nursing?",
+        "Tell me about program",
+        "What should I know about how competitive is admission to different programs?"
+      ],
+      "responses": [
+        "Admissions representatives can discuss the competitiveness of various programs and any special requirements for specific majors. Some programs like Nursing and certain Engineering specialties may have additional criteria or be more selective due to capacity limitations and high demand. They can provide insight into what makes applicants competitive for these programs."
+      ]
+    },
+    {
+      "tag": "favorite_merrimack_experience",
+      "patterns": [
+        "How does Merrimack handle what do students enjoy most about merrimack?",
+        "Can I find out more about what do students enjoy most about merrimack?",
+        "What should I know about what's the best thing about being a student here?",
+        "What should I know about what's been your favorite experience at merrimack?",
+        "favorite?",
+        "Can I find out more about what's been your favorite experience at merrimack?",
+        "Merrimack merrimack",
+        "experience at Merrimack",
+        "I'd like to know what campus experiences do students love.",
+        "Is there anything special about what's the best thing about being a student here?",
+        "Could you explain what's been your favorite experience at merrimack?",
+        "Could you explain what's the best thing about being a student here?",
+        "What can you tell me about what stands out about the merrimack experience?",
+        "merrimack at Merrimack",
+        "I'd like to know what's been your favorite experience at merrimack.",
+        "What can you tell me about what do students enjoy most about merrimack?",
+        "I'd like to know what stands out about the merrimack experience.",
+        "How does Merrimack handle what campus experiences do students love?",
+        "Can I find out more about what stands out about the merrimack experience?",
+        "Tell me about favorite"
+      ],
+      "responses": [
+        "As a Pepper robot, I don't have personal experiences at Merrimack, but students often mention that their favorite aspects include the tight-knit community feel, meaningful relationships with professors, hands-on learning opportunities, and campus traditions. Many students particularly value the balance of academic challenge with personalized support and opportunities for involvement beyond the classroom."
+      ]
+    },
+    {
+      "tag": "wish_knew_before_starting",
+      "patterns": [
+        "What is before?",
+        "What do you wish you knew before starting here?",
+        "Is there anything special about what would students tell their past selves?",
+        "Do you have info on what do you wish you knew before starting here?",
+        "Is there anything special about what do you wish you knew before starting here?",
+        "Is there anything special about what advice do students give to new students?",
+        "What is knew?",
+        "Tell me about before",
+        "Can you tell me what should freshmen know before arriving?",
+        "Can you tell me what would students tell their past selves?",
+        "What can you tell me about what advice do students give to new students?",
+        "Merrimack knew",
+        "I'd like to know what do you wish you knew before starting here.",
+        "What surprises new students about Merrimack?",
+        "How does Merrimack handle what do you wish you knew before starting here?",
+        "Do you have info on what should freshmen know before arriving?",
+        "What can you tell me about what would students tell their past selves?",
+        "Tell me about starting",
+        "Do you have info on what would students tell their past selves?",
+        "How does Merrimack handle what would students tell their past selves?"
+      ],
+      "responses": [
+        "Students frequently recommend getting involved early in campus activities and building relationships with professors from the start. Other common advice includes taking advantage of academic support resources before difficulties arise, exploring different courses before settling on a major, and being open to new friendships and experiences. Many students also emphasize the importance of time management and maintaining balance."
+      ]
+    },
+    {
+      "tag": "why_choose_merrimack",
+      "patterns": [
+        "Could you explain why do students select merrimack?",
+        "Would you explain why do students select merrimack to me?",
+        "What should I know about why do students select merrimack?",
+        "Could you explain why did you choose merrimack over other schools?",
+        "Is there anything special about why did you choose merrimack over other schools?",
+        "What can you tell me about what factors influence choosing merrimack?",
+        "Merrimack merrimack",
+        "Info on why",
+        "merrimack at Merrimack",
+        "Is there anything special about why merrimack instead of other colleges?",
+        "Can you tell me why do students select merrimack?",
+        "Can I find out more about why do students select merrimack?",
+        "Why do students select Merrimack?",
+        "What can you tell me about why did you choose merrimack over other schools?",
+        "How does Merrimack handle what factors influence choosing merrimack?",
+        "Can I find out more about what makes students pick merrimack?",
+        "What should I know about what makes students pick merrimack?",
+        "How does Merrimack handle why do students select merrimack?",
+        "why at Merrimack",
+        "Tell me about why"
+      ],
+      "responses": [
+        "Many students choose Merrimack for its tight-knit community feel combined with strong academic programs. Common factors in their decision include the personalized attention from faculty, opportunities for hands-on learning and research, the supportive campus environment, and specific program strengths. Location, campus feel, financial aid packages, and opportunities for involvement also frequently influence students' decisions."
+      ]
+    },
+    {
+      "tag": "college_adjustment",
+      "patterns": [
+        "Is there anything special about what was the biggest challenge adjusting to college?",
+        "Tell me about adjustment",
+        "Tell me about college",
+        "Do you have info on what's the hardest part about starting at merrimack?",
+        "Is there anything special about how difficult is the transition to college?",
+        "I'd like to know how do students adapt to college life.",
+        "What can you tell me about how do students adapt to college life?",
+        "What do freshmen struggle with most?",
+        "Is there anything special about how do students adapt to college life?",
+        "Can I find out more about how do students adapt to college life?",
+        "Info on college",
+        "What can you tell me about what was the biggest challenge adjusting to college?",
+        "Would you explain how difficult is the transition to college to me?",
+        "How does Merrimack handle how difficult is the transition to college?",
+        "college at Merrimack",
+        "Could you explain how do students adapt to college life?",
+        "How does Merrimack handle what do freshmen struggle with most?",
+        "What should I know about what was the biggest challenge adjusting to college?",
+        "How does Merrimack handle how do students adapt to college life?",
+        "What is adjustment?"
+      ],
+      "responses": [
+        "Students often mention that the biggest adjustment is managing time between academics, social life, and extracurricular activities. For many, developing independent study habits and taking responsibility for their own learning represents a significant shift from high school. Making new friends, homesickness, and adjusting to communal living are also common challenges, but most students find their footing within the first semester."
+      ]
+    },
+    {
+      "tag": "favorite_merrimack_aspect",
+      "patterns": [
+        "Do you have info on what do students appreciate most?",
+        "Merrimack aspect",
+        "Do you have info on what's special about merrimack?",
+        "favorite?",
+        "Merrimack merrimack",
+        "What can you tell me about what do students like best about the college?",
+        "What aspects of Merrimack do students value?",
+        "Would you explain what's your favorite thing about merrimack to me?",
+        "What can you tell me about what's your favorite thing about merrimack?",
+        "Can you tell me what do students appreciate most?",
+        "merrimack at Merrimack",
+        "aspect at Merrimack",
+        "Can I find out more about what aspects of merrimack do students value?",
+        "Can you tell me what aspects of merrimack do students value?",
+        "Do you have info on what do students like best about the college?",
+        "Is there anything special about what's your favorite thing about merrimack?",
+        "Would you explain what do students appreciate most to me?",
+        "How does Merrimack handle what do students like best about the college?",
+        "What is aspect?",
+        "Could you explain what's special about merrimack?"
+      ],
+      "responses": [
+        "Students particularly value Merrimack's sense of community, the beautiful campus, dedicated faculty, and the balance of academic rigor with supportive resources. Many appreciate the opportunity to form close relationships with professors, participate in hands-on learning experiences, and get involved in meaningful extracurricular activities. The college's size allows for both personal attention and diverse opportunities."
+      ]
+    },
+    {
+      "tag": "merrimack_uniqueness",
+      "patterns": [
+        "Could you explain why is merrimack unique?",
+        "Would you explain what sets merrimack apart to me?",
+        "What sets Merrimack apart?",
+        "What should I know about what makes merrimack special compared to other colleges?",
+        "How does Merrimack handle what sets merrimack apart?",
+        "Could you explain what distinguishes merrimack from competitors?",
+        "How does Merrimack handle what distinguishes merrimack from competitors?",
+        "Merrimack merrimack",
+        "Info on uniqueness",
+        "What should I know about what sets merrimack apart?",
+        "Could you explain what makes merrimack special compared to other colleges?",
+        "Do you have info on what makes merrimack special compared to other colleges?",
+        "Is there anything special about what sets merrimack apart?",
+        "Can I find out more about why is merrimack unique?",
+        "What should I know about why is merrimack unique?",
+        "Is there anything special about why is merrimack unique?",
+        "merrimack at Merrimack",
+        "What distinguishes Merrimack from competitors?",
+        "Tell me about uniqueness",
+        "Merrimack uniqueness"
+      ],
+      "responses": [
+        "Merrimack's distinctive features include its Augustinian Catholic heritage, tight-knit community atmosphere, strong focus on experiential learning, and comprehensive student support services. The college combines the personal attention of a small institution with the resources and opportunities of a larger university. The integration of liberal arts education with professional preparation creates graduates who are both well-rounded and career-ready."
+      ]
+    },
+    {
+      "tag": "default",
+      "patterns": [
+        "Do you have info on default?",
+        "Is there anything special about default?",
+        "What can you tell me about default?",
+        "Would you explain default to me?",
+        "Tell me about default",
+        "I'd like to know default.",
+        "How does Merrimack handle default?",
+        "Info on default",
+        "Could you explain default?",
+        "default at Merrimack",
+        "Merrimack default",
+        "default",
+        "Can you tell me default?",
+        "Can I find out more about default?",
+        "default?",
+        "What is default?",
+        "What should I know about default?"
+      ],
+      "responses": [
+        "I'm not sure I understood your question. Could you please rephrase it, or ask about specific aspects of Merrimack College such as academic programs, campus life, or admissions?"
+      ]
+    }
+  ]
+}
