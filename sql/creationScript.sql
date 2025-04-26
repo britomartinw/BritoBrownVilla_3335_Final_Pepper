@@ -20,7 +20,7 @@ FOREIGN KEY (questionId) REFERENCES Questions (questionId) ON UPDATE CASCADE ON 
 
 -- Insert into Questions table
 INSERT INTO Questions (question, answer) VALUES
-('Can you share about a professor or class that had a big impact on students?', 'Professors in introductory CS courses often have a big impact on students. They explain concepts clearly and encourage critical thinking and curiosity.'),
+('Can you share about a professor or class that had a big impact on students?', 'Professors in introductory Engineering and Computational Sciences courses often have a big impact on students. They explain concepts clearly and encourage critical thinking and curiosity.'),
 ('What’s advising like in Engineering and Computational Sciences?', 'Advising is very simple and easy. Everything is pretty straight forwards and its pretty easy to get in contact with you advisors.'),
 ('Are faculty and advisors accessible to students outside of class?', 'Most professors and advisors are approachable and responsive, regularly meeting with students during office hours or over email.'),
 ('Are Engineering and Computational Sciences courses more hands-on or lecture-based for students?', 'Many Engineering and Computational Sciences courses are hands-on. Students regularly code and build projects, especially in advanced classes. Even theory-heavy courses tend to include practical components.'),

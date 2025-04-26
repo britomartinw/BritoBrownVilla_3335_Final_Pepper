@@ -1,11 +1,11 @@
-package database;
+package jsonbuilder.database;
 
 import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-import json.JsonManager;
+import jsonbuilder.json.JsonManager;
 
 public class BusinessLayer {
     DataMgr dataMgr;
@@ -14,16 +14,6 @@ public class BusinessLayer {
 
     public BusinessLayer(String username, String password) {
         this.dataMgr = new DataMgr(username, password);
-        this.jsonManager = new JsonManager();
-        try {
-            dataMgr.getConnection();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public BusinessLayer() {
-        this.dataMgr = new DataMgr("root", "root");
         this.jsonManager = new JsonManager();
         try {
             dataMgr.getConnection();

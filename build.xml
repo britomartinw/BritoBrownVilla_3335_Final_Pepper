@@ -9,13 +9,15 @@
     <property name="build" location="build"/>
     <property name="dist" location="dist"/>
     <property name="json" location="json"/>
+    <property name="models" location="models"/>
     <property name="jarname" value="main.jar" />    <!-- name of jar -->
-    <property name="mainclass" value="Main" /> <!-- name of main class, no JAR. -->
+    <property name="mainclass" value="jsonbuilder/Main" /> <!-- name of main class, no JAR. -->
 
     <target name="init" description="Create the build directory structure">
         <mkdir dir="${build}"/>
         <mkdir dir="${dist}"/>
         <mkdir dir="${json}"/>
+        <mkdir dir="${models}"/>
     </target>
 
     <target name="compile" depends="init" description="Compile source code">
@@ -42,5 +44,12 @@
         <delete dir="${build}"/>
         <delete dir="${dist}"/>
         <delete dir="${json}"/>
+    </target>
+
+    <target name="clean_models" description="Clean up the models">
+        <!-- Delete the model files-->
+        <delete>
+            <fileset dir="${models}" includes="*.pkl" />
+        </delete>
     </target>
 </project>

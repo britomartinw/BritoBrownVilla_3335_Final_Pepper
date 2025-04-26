@@ -1,4 +1,4 @@
-package json;
+package jsonbuilder.json;
 
 import java.io.*;
 import java.util.*;
@@ -7,7 +7,7 @@ import java.lang.reflect.Type;
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
 
-import database.Question;
+import jsonbuilder.database.Question;
 
 public class JsonManager {
     private Gson gson;

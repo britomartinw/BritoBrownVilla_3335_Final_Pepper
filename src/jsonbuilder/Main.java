@@ -1,6 +1,7 @@
+package jsonbuilder;
 import java.util.Scanner;
 
-import database.BusinessLayer;
+import jsonbuilder.database.BusinessLayer;
 
 public class Main {
     public static void main(String[] args) {

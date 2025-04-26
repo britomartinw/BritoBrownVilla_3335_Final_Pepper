@@ -1,4 +1,4 @@
-package database;
+package jsonbuilder.database;
 import java.sql.*;
 
 import java.util.ArrayList;

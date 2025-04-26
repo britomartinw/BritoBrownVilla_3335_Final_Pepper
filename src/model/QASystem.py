@@ -15,9 +15,14 @@ nltk.download('punkt', quiet = True)
 nltk.download('stopwords', quiet = True)
 nltk.download('wordnet', quiet = True)
 
+FILEPATH = 'json\intents.json'
+MODELPATH = 'models/QAModel.pkl'
+VECTORIZERPATH = 'models/TFIDFVectorizer.pkl' 
+CLASSPATH ='models/IntentClasses.pkl'
+
 lemmatizer = WordNetLemmatizer()
 
-def loadIntents(filePath = 'intents_expanded_with_keywords.json'):
+def loadIntents():
     """
     load the intents data from the json file
     
@@ -27,13 +32,13 @@ def loadIntents(filePath = 'intents_expanded_with_keywords.json'):
         dict:the loaded intents data
     """
     try: 
-        with open(filePath, 'r') as file:
+        with open(FILEPATH, 'r') as file:
             return json.load(file)
     except FileNotFoundError:
-        print(f"Error: file {filePath} was not found")
+        print(f"Error: file {FILEPATH} was not found")
         return None
     except json.JSONDecodeError:
-        print(f"Error: file {filePath} is not a valid JSON file")
+        print(f"Error: file {FILEPATH} is not a valid JSON file")
 
 def preprocessText(text):
     """
@@ -81,8 +86,8 @@ def extractFeatures(intentsData):
     documents = []
 
     # extract the patterns and their corresponding tags
-    for intent in intentsData['intents']:
-        tag = intent['tag']
+    for intent in intentsData:
+        tag = intent['question']
         if tag not in classes:
             classes.append(tag)
 
@@ -163,7 +168,7 @@ def predictIntent(userInput, vectorizer, model, classes):
     confidence = probabilities[prediction]
     return classes[prediction], confidence
 
-def getResponse(predictedIntent, confidence, intentsData, confidenceThreshold = 0.3):
+def getResponse(predictedIntent, confidence, intentsData, confidenceThreshold = 0.1):
     """
     get a response based on the predicted intent and confidence level
 
@@ -185,15 +190,15 @@ def getResponse(predictedIntent, confidence, intentsData, confidenceThreshold = 
         return "I'm not sure i understand. Could you please rephrase or provide more details", "low"
     
     # find the corresponding intent and select a random response
-    for intent in intentsData['intents']:
-        if intent['tag'] == predictedIntent:
+    for intent in intentsData:
+        if intent['question'] == predictedIntent:
             confidenceCategory = "high" if confidence > 0.7 else "medium"
-            return random.choice(intent['responses']), confidenceCategory
+            return intent['answer'], confidenceCategory
         
     # fallback response if intetnt wasn't found (shouldn't happen)
     return "I apologize, I'm having trouble understanding, please try again", "low"
 
-def saveModel(model, vectorizer, classes, modelPath = 'QAModel.pkl', vectorizerPath = 'TFIDFVectorizer.pkl', classesPath = 'IntentClasses.pkl'):
+def saveModel(model, vectorizer, classes):
     """
     save the trained model, vectorizer, and classes to files
 
@@ -206,13 +211,13 @@ def saveModel(model, vectorizer, classes, modelPath = 'QAModel.pkl', vectorizerP
         classesPath (str) - path to save the intent classes 
     """
 
-    with open(modelPath, 'wb') as file:
+    with open(MODELPATH, 'wb') as file:
         pickle.dump(model, file)
 
-    with open(vectorizerPath, 'wb') as file:
+    with open(VECTORIZERPATH, 'wb') as file:
         pickle.dump(vectorizer, file)
 
-    with open(classesPath, 'wb') as file:
+    with open(CLASSPATH, 'wb') as file:
         pickle.dump(classes, file)
 
 def loadModel(modelPath = "QAModel.pkl", vectorizerPath = "TFIDFVectorizer.pkl", classesPath = 'IntentClasses.pkl'):
@@ -231,13 +236,13 @@ def loadModel(modelPath = "QAModel.pkl", vectorizerPath = "TFIDFVectorizer.pkl",
     """
 
     try:
-        with open(modelPath, 'rb') as file:
+        with open(MODELPATH, 'rb') as file:
             model = pickle.load(file)
 
-        with open(vectorizerPath, 'rb') as file:
+        with open(VECTORIZERPATH, 'rb') as file:
             vectorizer = pickle.load(file)
 
-        with open(classesPath, 'rb') as file:
+        with open(CLASSPATH, 'rb') as file:
             classes = pickle.load(file)
 
         print("Model, vectorizer, and classes loaded successfully")
