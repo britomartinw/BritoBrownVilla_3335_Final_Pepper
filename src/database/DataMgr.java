@@ -1,7 +1,7 @@
+package database;
 import java.sql.*;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class DataMgr {
     private static final String URL = "jdbc:mysql://localhost:3306/StudentPanel";
@@ -70,6 +70,7 @@ public class DataMgr {
     }
 
     public int getNumberOfQuestions() {
+
         int number = 0;
         try {
             CallableStatement stmt = this.connection.prepareCall("{CALL getNumberOfQuestions()}");
@@ -82,4 +83,5 @@ public class DataMgr {
         }
         return number;
     }
+
 }

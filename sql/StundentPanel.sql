@@ -9,9 +9,9 @@ CREATE PROCEDURE getQuestion(
 in myQuestionId INT
 )
 BEGIN
-	SELECT q.question AS Question
-	FROM Questions AS q
-    WHERE q.questionId = myQuestionId;
+	SELECT question AS Question
+	FROM Questions
+    WHERE questionId = myQuestionId;
 END $$
 DELIMITER ;
 
@@ -26,9 +26,9 @@ CREATE PROCEDURE getAnswer(
 in myQuestionId INT
 )
 BEGIN
-	SELECT q.answer AS Answer
-	FROM Questions AS q
-    WHERE q.questionId = myQuestionId;
+	SELECT answer AS Answer
+	FROM Questions
+    WHERE questionId = myQuestionId;
 END $$
 DELIMITER ;
 
@@ -66,4 +66,4 @@ END $$
 DELIMITER ;
 
 -- Tesing 
-CALL getNumberOfQuestions();
+-- CALL getNumberOfQuestion();
