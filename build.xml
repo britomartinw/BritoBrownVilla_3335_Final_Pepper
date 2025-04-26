@@ -1,0 +1,46 @@
+<project name="Pepper" default="dist" basedir=".">
+    <description>
+        Builds the progarm to turn database into Json
+    </description>
+
+    <!-- Set global properties for this build -->
+    <property name="src" location="src"/>
+    <property name="lib" location="lib"/>
+    <property name="build" location="build"/>
+    <property name="dist" location="dist"/>
+    <property name="json" location="json"/>
+    <property name="jarname" value="main.jar" />    <!-- name of jar -->
+    <property name="mainclass" value="Main" /> <!-- name of main class, no JAR. -->
+
+    <target name="init" description="Create the build directory structure">
+        <mkdir dir="${build}"/>
+        <mkdir dir="${dist}"/>
+        <mkdir dir="${json}"/>
+    </target>
+
+    <target name="compile" depends="init" description="Compile source code">
+        <!-- Compile the Java code from ${src} into ${build} -->
+        <javac includeantruntime="false" srcdir="${src}" destdir="${build}">
+            <classpath>
+                <fileset dir="${lib}" includes="**/*.jar"/>  
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="dist" depends="compile" description="Generate jar files">
+        <!-- Create the main jar file -->
+        <jar jarfile="${dist}/main.jar" basedir="${build}">
+            <manifest>
+                <attribute name="Main-Class" value="${mainclass}"/>             
+            </manifest>
+            <zipgroupfileset dir="${lib}" includes="**/*.jar" />
+        </jar>
+    </target>
+
+    <target name="clean" description="Clean up the directories">
+        <!-- Delete all created directories-->
+        <delete dir="${build}"/>
+        <delete dir="${dist}"/>
+        <delete dir="${json}"/>
+    </target>
+</project>
