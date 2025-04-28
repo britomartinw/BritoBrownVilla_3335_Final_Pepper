@@ -24,26 +24,26 @@ public class DataMgr {
         return this.connection;
     }
 
-    public String getQuestion(int myQuestionId) {
-        String question = "";
+    public String getTag(int myIntentId) {
+        String tag = "";
         try {
-            CallableStatement stmt = this.connection.prepareCall("{CALL getQuestion(?)}");
-            stmt.setInt(1, myQuestionId);
+            CallableStatement stmt = this.connection.prepareCall("{CALL getTag(?)}");
+            stmt.setInt(1, myIntentId);
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
-                question = rs.getString("Question");
+                tag = rs.getString("Tag");
             }
         } catch (SQLException e) {
             System.out.println("Failed to execute stored procedure: " + e.getMessage());
         }
-        return question;
+        return tag;
     }
 
-    public String getAnswer(int myQuestionId) {
+    public String getAnswer(int myIntentId) {
         String answer = "";
         try {
             CallableStatement stmt = this.connection.prepareCall("{CALL getAnswer(?)}");
-            stmt.setInt(1, myQuestionId);
+            stmt.setInt(1, myIntentId);
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
                 answer = rs.getString("Answer");
@@ -54,29 +54,29 @@ public class DataMgr {
         return answer;
     }
 
-    public ArrayList<String> getPatterns(int myQuestionId) {
-        ArrayList<String> patterns = new ArrayList<String>();
+    public ArrayList<String> getKeywords(int myIntentId) {
+        ArrayList<String> keywords = new ArrayList<String>();
         try {
-            CallableStatement stmt = this.connection.prepareCall("{CALL getPatterns(?)}");
-            stmt.setInt(1, myQuestionId);
+            CallableStatement stmt = this.connection.prepareCall("{CALL getKeywords(?)}");
+            stmt.setInt(1, myIntentId);
             ResultSet rs = stmt.executeQuery();
             while (rs.next()) {
-                patterns.add(rs.getString("Patterns"));
+                keywords.add(rs.getString("Keywords"));
             }
         } catch (SQLException e) {
             System.out.println("Failed to execute stored procedure: " + e.getMessage());
         }
-        return patterns;
+        return keywords;
     }
 
-    public int getNumberOfQuestions() {
+    public int getNumberOfIntents() {
 
         int number = 0;
         try {
-            CallableStatement stmt = this.connection.prepareCall("{CALL getNumberOfQuestions()}");
+            CallableStatement stmt = this.connection.prepareCall("{CALL getNumberOfIntents()}");
             ResultSet rs = stmt.executeQuery();
             if (rs.next()) {
-                number = Integer.parseInt(rs.getString("Number_Of_Questions"));
+                number = Integer.parseInt(rs.getString("Number_Of_Intents"));
             }
         } catch (SQLException e) {
             System.out.println("Failed to execute stored procedure: " + e.getMessage());

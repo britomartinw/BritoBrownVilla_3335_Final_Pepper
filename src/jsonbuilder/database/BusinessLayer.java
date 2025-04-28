@@ -22,46 +22,43 @@ public class BusinessLayer {
         }
     }
 
-    public String getQuestion(int myQuestionId) {
-        return this.dataMgr.getQuestion(myQuestionId);
+    public String getTag(int myIntentId) {
+        return this.dataMgr.getTag(myIntentId);
     }
 
-    public String getAnswer(int myQuestionId) {
-        return this.dataMgr.getAnswer(myQuestionId);
+    public String getAnswer(int myIntentId) {
+        return this.dataMgr.getAnswer(myIntentId);
     }
 
-    public ArrayList<String> getPatterns(int myQuestionId) {
-        return this.dataMgr.getPatterns(myQuestionId);
+    public ArrayList<String> getKeywords(int myIntentId) {
+        return this.dataMgr.getKeywords(myIntentId);
     }
 
-    public int getNumberOfQuestions() {
-        return this.dataMgr.getNumberOfQuestions();
+    public int getNumberOfIntents() {
+        return this.dataMgr.getNumberOfIntents();
     }
 
-    public void addAllQuestion() {
+    public void addAllIntents() {
         // Deletes all the intents to assure no duplicates when adding all the questions
         this.deleteAllIntents();
-        int getNumberOfQuestions = this.getNumberOfQuestions();
+        int getNumberOfQuestions = this.getNumberOfIntents();
         String question;
         String answer;
         ArrayList<String> patterns;
         for (int i = 1; i <= getNumberOfQuestions; i++) {
-            question = this.getQuestion(i);
+            question = this.getTag(i);
             answer = this.getAnswer(i);
-            patterns = this.getPatterns(i);
+            patterns = this.getKeywords(i);
             this.jsonManager.addQuestion(question, answer, patterns);
         }
 
     }
 
     private void deleteAllIntents() {
-        try {
-            File myObj = new File(this.filePath);
-            myObj.createNewFile();
-            System.out.println("Deleting File: " + myObj.getName());
-        } catch (IOException e2) {
-            System.out.println("An error occurred.");
-            e2.printStackTrace();
+        File file = new File(this.filePath);
+        if (file.exists()) {
+            file.delete();
+            System.out.println("Deleting File: " + file.getName());
         }
     }
 
