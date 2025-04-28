@@ -57,11 +57,48 @@ def preprocessText(text):
 
     tokens = word_tokenize(text) # tokenize the text
 
-    stopWords = set(stopwords.words('english')) # stopwords set bc of course python already has them
 
-    # remove stopwords that might be important for educational questions
-    domainRelevant = {'how', 'what', 'where', 'when', 'why', 'who', 'which'}
-    stopWords = stopWords - domainRelevant
+    # Base stopwords
+    stopWords = set(stopwords.words('english'))  # built-in English stopwords
+    
+    # Custom stopwords that are relevant to merrimack
+    custom_stop_words = {
+        'merrimack', 'ecs', 'engineering', 'computational', 'sciences',
+        'student', 'students', 'professor', 'professors',
+        'course', 'courses', 'class', 'classes', 'program', 'programs',
+        'center', 'building', 'facilities','learningstyle',
+        'trip', 'trips','servicelearning'
+    }
+
+    
+    # Merge
+    stopWords = stopWords | custom_stop_words
+
+    # Domain-relevant words (things we *don't* want to filter out)
+    domain_relevant_words = {
+        'internship', 'research', 'career', 'job', 'resume', 'interview',
+        'advising', 'advisor', 'publication', 'leadership', 'mentor',
+        'capstone', 'club', 'competition', 'hackathon',
+        'startup', 'innovation', 'technology', 'robotics', 'programming', 'coding',
+        'software', 'hardware', 'computer', 'system', 'development',
+        'data', 'machine', 'learning', 'python', 'java', 'sql', 'javascript', 'c++',
+        'vscode', 'github', 'matlab', 'makerspace', 'lab',
+        'scholarship', 'financial', 'aid', 'housing', 'dining', 'campus', 'shuttle',
+        'study', 'abroad', 'service', 'send', 'community',
+        'organization', 'conference', 'award', 'presentation', 'portfolio', 'networking',
+        'graduate', 'school', 'masters', 'phd', 'bachelor', 'researcher', 'intern',
+        'full-time', 'part-time', 'semester', 'faculty', 'alumni', 'employment',
+        'orientation', 'engineering fair', 'career fair', 'challenge', 'project showcase',
+        'commuter', 'transportation', 'parking', 'lounge', 'den',
+        'sparky', 'dunkin', 'truck', 'trucks', 'spirit', 'athletics',
+        'game', 'games', 'hockey', 'arena', 'lawler', 'traditions',
+        'events', 'homecoming', 'macktoberfest', 'springapalooza',
+        'midnight madness', 'studentlife', 'fair', 'adjustment', 'welcome week'
+    }
+
+    # Final cleanup
+    stopWords = stopWords - domain_relevant_words
+
     tokens = [word for word in tokens if word not in stopWords]
 
     tokens = [lemmatizer.lemmatize(word) for word in tokens]
@@ -87,11 +124,11 @@ def extractFeatures(intentsData):
 
     # extract the patterns and their corresponding tags
     for intent in intentsData:
-        tag = intent['question']
+        tag = intent['tag']
         if tag not in classes:
             classes.append(tag)
 
-        for pattern in intent['patterns']:
+        for pattern in intent['keywords']:
 
             # preprocess the pattern
             tokens = preprocessText(pattern)
@@ -124,7 +161,7 @@ def trainModel(xTrain, yTrain):
     """
 
     # using logistic regression as our classification model with tuned parameters
-    model = LogisticRegression(max_iter = 2000, C = 2.0, solver = 'lbfgs', multi_class = 'multinomial', class_weight = 'balanced')
+    model = LogisticRegression(max_iter = 2000, C = 2.0, solver = 'lbfgs', class_weight = 'balanced', verbose=1)
     model.fit(xTrain, yTrain)
 
     # make prediction on the training data to evaluate
@@ -191,7 +228,7 @@ def getResponse(predictedIntent, confidence, intentsData, confidenceThreshold = 
     
     # find the corresponding intent and select a random response
     for intent in intentsData:
-        if intent['question'] == predictedIntent:
+        if intent['tag'] == predictedIntent:
             confidenceCategory = "high" if confidence > 0.7 else "medium"
             return intent['answer'], confidenceCategory
         
