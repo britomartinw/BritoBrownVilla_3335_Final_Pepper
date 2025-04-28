@@ -1,34 +1,34 @@
 -- Where the stored procedures and functions will go
 USE StudentPanel;
 
--- Stored procedure to get the question for the inputed question id
+-- Stored procedure to get the tag for the inputed intent id
 DELIMITER $$
-DROP PROCEDURE IF EXISTS getQuestion$$
+DROP PROCEDURE IF EXISTS getTag$$
 
-CREATE PROCEDURE getQuestion(
-in myQuestionId INT
+CREATE PROCEDURE getTag(
+in myIntentId INT
 )
 BEGIN
-	SELECT question AS Question
-	FROM Questions
-    WHERE questionId = myQuestionId;
+	SELECT tag AS Tag
+	FROM Intent
+    WHERE intentId = myIntentId;
 END $$
 DELIMITER ;
 
 -- Testing
--- CALL getQuestion(1);
+-- CALL getTag(1);
 
--- Stored procedure to get the answer for the inputed question id
+-- Stored procedure to get the answer for the inputed intent id
 DELIMITER $$
 DROP PROCEDURE IF EXISTS getAnswer$$
 
 CREATE PROCEDURE getAnswer(
-in myQuestionId INT
+in myIntentId INT
 )
 BEGIN
 	SELECT answer AS Answer
-	FROM Questions
-    WHERE questionId = myQuestionId;
+	FROM Intent
+    WHERE intentId = myIntentId;
 END $$
 DELIMITER ;
 
@@ -37,33 +37,33 @@ DELIMITER ;
 
 -- Stored procedure to get the patterns for the inputed question id
 DELIMITER $$
-DROP PROCEDURE IF EXISTS getPatterns$$
+DROP PROCEDURE IF EXISTS getKeywords$$
 
-CREATE PROCEDURE getPatterns(
-in myQuestionId INT
+CREATE PROCEDURE getKeywords(
+in myIntentId INT
 )
 BEGIN
-	SELECT pa.pattern AS Patterns
-	FROM Questions AS q
-    INNER JOIN Patterns AS pa ON q.questionId = pa.questionId
-    WHERE q.questionId = myQuestionId;
+	SELECT k.keyword AS Keywords
+	FROM Intent AS i
+    INNER JOIN Keywords AS k ON i.intentId = k.intentId
+    WHERE i.intentId = myIntentId;
 END $$
 DELIMITER ;
 
 -- Testing
--- CALL getPatterns(1);
+-- CALL getKeywords(1);
 
 -- Stored procedure to get number of questions
 DELIMITER $$
 
-DROP PROCEDURE IF EXISTS getNumberOfQuestions $$
+DROP PROCEDURE IF EXISTS getNumberOfIntents $$
 
-CREATE PROCEDURE getNumberOfQuestions()
+CREATE PROCEDURE getNumberOfIntents()
 BEGIN
-	SELECT COUNT(questionId) AS Number_Of_Questions
-    FROM Questions;
+	SELECT COUNT(intentId) AS Number_Of_Intents
+    FROM Intent;
 END $$
 DELIMITER ;
 
 -- Tesing 
--- CALL getNumberOfQuestion();
+-- CALL getNumberOfIntents();

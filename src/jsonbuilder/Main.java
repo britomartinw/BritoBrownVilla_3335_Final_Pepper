@@ -1,6 +1,7 @@
+package jsonbuilder;
 import java.util.Scanner;
 
-import database.BusinessLayer;
+import jsonbuilder.database.BusinessLayer;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +13,10 @@ public class Main {
         String password = scanner.next();
         BusinessLayer bLayer = new BusinessLayer(username, password);
         scanner.close();
-        
-        bLayer.addAllQuestion();
+        System.out.println(bLayer.getTag(5));
+        // System.out.println(bLayer.getAnswer(1));
+        System.out.println(bLayer.getKeywords(5));
+        System.out.println(bLayer.getNumberOfIntents());
+        bLayer.addAllIntents();
     }
 }

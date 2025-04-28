@@ -15,9 +15,14 @@ nltk.download('punkt', quiet = True)
 nltk.download('stopwords', quiet = True)
 nltk.download('wordnet', quiet = True)
 
+FILEPATH = 'json\intents.json'
+MODELPATH = 'models/QAModel.pkl'
+VECTORIZERPATH = 'models/TFIDFVectorizer.pkl' 
+CLASSPATH ='models/IntentClasses.pkl'
+
 lemmatizer = WordNetLemmatizer()
 
-def loadIntents(filePath = 'intents_expanded_with_keywords.json'):
+def loadIntents():
     """
     load the intents data from the json file
     
@@ -27,13 +32,13 @@ def loadIntents(filePath = 'intents_expanded_with_keywords.json'):
         dict:the loaded intents data
     """
     try: 
-        with open(filePath, 'r') as file:
+        with open(FILEPATH, 'r') as file:
             return json.load(file)
     except FileNotFoundError:
-        print(f"Error: file {filePath} was not found")
+        print(f"Error: file {FILEPATH} was not found")
         return None
     except json.JSONDecodeError:
-        print(f"Error: file {filePath} is not a valid JSON file")
+        print(f"Error: file {FILEPATH} is not a valid JSON file")
 
 def preprocessText(text):
     """
@@ -52,11 +57,48 @@ def preprocessText(text):
 
     tokens = word_tokenize(text) # tokenize the text
 
-    stopWords = set(stopwords.words('english')) # stopwords set bc of course python already has them
 
-    # remove stopwords that might be important for educational questions
-    domainRelevant = {'how', 'what', 'where', 'when', 'why', 'who', 'which'}
-    stopWords = stopWords - domainRelevant
+    # Base stopwords
+    stopWords = set(stopwords.words('english'))  # built-in English stopwords
+    
+    # Custom stopwords that are relevant to merrimack
+    custom_stop_words = {
+        'merrimack', 'ecs', 'engineering', 'computational', 'sciences',
+        'student', 'students', 'professor', 'professors',
+        'course', 'courses', 'class', 'classes', 'program', 'programs',
+        'center', 'building', 'facilities','learningstyle',
+        'trip', 'trips','servicelearning'
+    }
+
+    
+    # Merge
+    stopWords = stopWords | custom_stop_words
+
+    # Domain-relevant words (things we *don't* want to filter out)
+    domain_relevant_words = {
+        'internship', 'research', 'career', 'job', 'resume', 'interview',
+        'advising', 'advisor', 'publication', 'leadership', 'mentor',
+        'capstone', 'club', 'competition', 'hackathon',
+        'startup', 'innovation', 'technology', 'robotics', 'programming', 'coding',
+        'software', 'hardware', 'computer', 'system', 'development',
+        'data', 'machine', 'learning', 'python', 'java', 'sql', 'javascript', 'c++',
+        'vscode', 'github', 'matlab', 'makerspace', 'lab',
+        'scholarship', 'financial', 'aid', 'housing', 'dining', 'campus', 'shuttle',
+        'study', 'abroad', 'service', 'send', 'community',
+        'organization', 'conference', 'award', 'presentation', 'portfolio', 'networking',
+        'graduate', 'school', 'masters', 'phd', 'bachelor', 'researcher', 'intern',
+        'full-time', 'part-time', 'semester', 'faculty', 'alumni', 'employment',
+        'orientation', 'engineering fair', 'career fair', 'challenge', 'project showcase',
+        'commuter', 'transportation', 'parking', 'lounge', 'den',
+        'sparky', 'dunkin', 'truck', 'trucks', 'spirit', 'athletics',
+        'game', 'games', 'hockey', 'arena', 'lawler', 'traditions',
+        'events', 'homecoming', 'macktoberfest', 'springapalooza',
+        'midnight madness', 'studentlife', 'fair', 'adjustment', 'welcome week'
+    }
+
+    # Final cleanup
+    stopWords = stopWords - domain_relevant_words
+
     tokens = [word for word in tokens if word not in stopWords]
 
     tokens = [lemmatizer.lemmatize(word) for word in tokens]
@@ -81,12 +123,12 @@ def extractFeatures(intentsData):
     documents = []
 
     # extract the patterns and their corresponding tags
-    for intent in intentsData['intents']:
+    for intent in intentsData:
         tag = intent['tag']
         if tag not in classes:
             classes.append(tag)
 
-        for pattern in intent['patterns']:
+        for pattern in intent['keywords']:
 
             # preprocess the pattern
             tokens = preprocessText(pattern)
@@ -119,7 +161,7 @@ def trainModel(xTrain, yTrain):
     """
 
     # using logistic regression as our classification model with tuned parameters
-    model = LogisticRegression(max_iter = 2000, C = 2.0, solver = 'lbfgs', multi_class = 'multinomial', class_weight = 'balanced')
+    model = LogisticRegression(max_iter = 2000, C = 2.0, solver = 'lbfgs', class_weight = 'balanced', verbose=1)
     model.fit(xTrain, yTrain)
 
     # make prediction on the training data to evaluate
@@ -163,7 +205,7 @@ def predictIntent(userInput, vectorizer, model, classes):
     confidence = probabilities[prediction]
     return classes[prediction], confidence
 
-def getResponse(predictedIntent, confidence, intentsData, confidenceThreshold = 0.3):
+def getResponse(predictedIntent, confidence, intentsData, confidenceThreshold = 0.1):
     """
     get a response based on the predicted intent and confidence level
 
@@ -185,15 +227,15 @@ def getResponse(predictedIntent, confidence, intentsData, confidenceThreshold = 
         return "I'm not sure i understand. Could you please rephrase or provide more details", "low"
     
     # find the corresponding intent and select a random response
-    for intent in intentsData['intents']:
+    for intent in intentsData:
         if intent['tag'] == predictedIntent:
             confidenceCategory = "high" if confidence > 0.7 else "medium"
-            return random.choice(intent['responses']), confidenceCategory
+            return intent['answer'], confidenceCategory
         
     # fallback response if intetnt wasn't found (shouldn't happen)
     return "I apologize, I'm having trouble understanding, please try again", "low"
 
-def saveModel(model, vectorizer, classes, modelPath = 'QAModel.pkl', vectorizerPath = 'TFIDFVectorizer.pkl', classesPath = 'IntentClasses.pkl'):
+def saveModel(model, vectorizer, classes):
     """
     save the trained model, vectorizer, and classes to files
 
@@ -206,13 +248,13 @@ def saveModel(model, vectorizer, classes, modelPath = 'QAModel.pkl', vectorizerP
         classesPath (str) - path to save the intent classes 
     """
 
-    with open(modelPath, 'wb') as file:
+    with open(MODELPATH, 'wb') as file:
         pickle.dump(model, file)
 
-    with open(vectorizerPath, 'wb') as file:
+    with open(VECTORIZERPATH, 'wb') as file:
         pickle.dump(vectorizer, file)
 
-    with open(classesPath, 'wb') as file:
+    with open(CLASSPATH, 'wb') as file:
         pickle.dump(classes, file)
 
 def loadModel(modelPath = "QAModel.pkl", vectorizerPath = "TFIDFVectorizer.pkl", classesPath = 'IntentClasses.pkl'):
@@ -231,13 +273,13 @@ def loadModel(modelPath = "QAModel.pkl", vectorizerPath = "TFIDFVectorizer.pkl",
     """
 
     try:
-        with open(modelPath, 'rb') as file:
+        with open(MODELPATH, 'rb') as file:
             model = pickle.load(file)
 
-        with open(vectorizerPath, 'rb') as file:
+        with open(VECTORIZERPATH, 'rb') as file:
             vectorizer = pickle.load(file)
 
-        with open(classesPath, 'rb') as file:
+        with open(CLASSPATH, 'rb') as file:
             classes = pickle.load(file)
 
         print("Model, vectorizer, and classes loaded successfully")
