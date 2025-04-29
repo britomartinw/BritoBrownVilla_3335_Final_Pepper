@@ -1,9 +1,12 @@
+# CSC3335 Final Project
 # Pepper Robot - Merrimack Open House Project
 
 This project controls Pepper's behavior using a Flask server backend.  
 Pepper dynamically listens for user speech, sends recognized phrases to a server for prediction, and responds with speech or media content (images/videos).
 
 It combines **robotics**, **natural language processing (NLP)**, **machine learning (ML)**, **speech recognition**, and **database management** into a dynamic, intelligent system.
+
+This project was designed for CSC3335 Artificial Intelligence Final Project
 
 ---
 
