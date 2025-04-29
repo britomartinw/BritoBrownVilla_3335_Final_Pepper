@@ -93,7 +93,7 @@ def preprocessText(text):
         'sparky', 'dunkin', 'truck', 'trucks', 'spirit', 'athletics',
         'game', 'games', 'hockey', 'arena', 'lawler', 'traditions',
         'events', 'homecoming', 'macktoberfest', 'springapalooza',
-        'midnight madness', 'studentlife', 'fair', 'adjustment', 'welcome week'
+        'midnight madness', 'student life', 'fair', 'adjustment', 'welcome week'
     }
 
     # Final cleanup
