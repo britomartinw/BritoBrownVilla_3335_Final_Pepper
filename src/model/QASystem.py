@@ -11,7 +11,6 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer 
 from nltk.tokenize import word_tokenize
 
-nltk.download()
 nltk.download('punkt', quiet = True)
 nltk.download('stopwords', quiet = True)
 nltk.download('wordnet', quiet = True)
@@ -94,7 +93,7 @@ def preprocessText(text):
         'sparky', 'dunkin', 'truck', 'trucks', 'spirit', 'athletics',
         'game', 'games', 'hockey', 'arena', 'lawler', 'traditions',
         'events', 'homecoming', 'macktoberfest', 'springapalooza',
-        'midnight madness', 'studentlife', 'fair', 'adjustment', 'welcome week'
+        'midnight madness', 'student life', 'fair', 'adjustment', 'welcome week'
     }
 
     # Final cleanup
@@ -258,7 +257,7 @@ def saveModel(model, vectorizer, classes):
     with open(CLASSPATH, 'wb') as file:
         pickle.dump(classes, file)
 
-def loadModel(modelPath = "QAModel_2.pkl", vectorizerPath = "TFIDFVectorizer_2.pkl", classesPath = 'IntentClasses_2.pkl'):
+def loadModel(modelPath = "QAModel.pkl", vectorizerPath = "TFIDFVectorizer.pkl", classesPath = 'IntentClasses.pkl'):
     """
     load the trained model, vectorizer, and classes from files
 

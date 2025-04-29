@@ -21,8 +21,23 @@
       "coding projects",
       "labs and builds",
       "capstone project",
-      "semester project"
-    ]
+      "semester project",
+      "what are classes like",
+      "how are courses taught",
+      "do students build projects",
+      "hands-on learning examples",
+      "capstone course",
+      "final year project",
+      "engineering projects",
+      "computational sciences capstone",
+      "senior design project",
+      "building real-world projects",
+      "practical coursework"
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Projects.jpg"
+    }
   },
   {
     "tag": "Industry Experience and Real-World Applications",
@@ -57,9 +72,20 @@
       "mock interviews",
       "career fairs",
       "graduate schools",
-      "job placement"
+      "job placement",
+      "help finding internships",
+      "career center support",
+      "resume help services",
+      "finding a job after graduation",
+      "internship opportunities",
+      "how does career services help",
+      "companies students intern with",
+      "career fairs at Merrimack",
+      "job placement rate",
+      "employment outcomes after college"
     ]
-  },
+  }
+  ,
   {
     "tag": "Research, Publishing, and Summer Opportunities",
     "answer": "Students can join ongoing faculty research or start independent projects. Those who contribute meaningfully often co-author publications. Students can work with faculty on research over the summer, sometimes with stipends.",
@@ -69,7 +95,11 @@
       "summer stipends",
       "co-author publications",
       "research collaboration"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Research.jpg"
+    }
   },
   {
     "tag": "Academic Support and Class Sizes",
@@ -80,7 +110,11 @@
       "peer tutoring",
       "math center",
       "one-on-one help"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Class_Size.jpeg"
+    }
   },
   {
     "tag": "Lab Access and Facilities",
@@ -92,7 +126,11 @@
       "3D printers",
       "Mack Card access",
       "lab hours"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Lab_Hours.jpg"
+    }
   },
   {
     "tag": "Collaboration Across Majors",
@@ -115,7 +153,11 @@
       "club meetings",
       "technical clubs",
       "peer mentoring"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Clubs.jpg"
+    }
   },
   {
     "tag": "Undecided Engineering",
@@ -138,7 +180,11 @@
       "off-campus apartments",
       "dining options",
       "meal swipes"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Warrior_Shuttle.jpg"
+    }
   },
   {
     "tag": "Studying Habits and Community",
@@ -154,7 +200,7 @@
   },
   {
     "tag": "Programming, Tools, and Projects",
-    "answer": "Students typically learn Java, Python, SQL, and sometimes JavaScript or C/C++, depending on the electives taken. Courses use tools like VSCode, GitHub, MATLAB, and more. Most instructors allow students to use any IDE as long as the work is completed correctly. Students are encouraged to build GitHub portfolios and some contribute to the colleges open-source utilities.",
+    "answer": "Students typically learn Java, Python, SQL, and sometimes JavaScript or C/C++, depending on the electives taken. Courses use tools like VSCode, GitHub, MATLAB, and more. Most instructors allow students to use any I D E as long as the work is completed correctly. Students are encouraged to build GitHub portfolios and some contribute to the colleges open-source utilities.",
     "keywords": [
       "programming languages",
       "Java",
@@ -175,18 +221,36 @@
       "Compass program",
       "diversity support",
       "mentoring initiatives"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Breaking_Bread.jpg"
+    }
   },
   {
     "tag": "Study Abroad and Service Trips",
-    "answer": " Students can study abroad during the summer or semester, and some Engineering and Computational Sciences students participate in engineering service trips through the SEND Program. The SEND Program offers service trips during breaks where students volunteer in U.S. and international communities, focusing on social justice and personal growth.",
+    "answer": "Students can study abroad during the summer or semester, and some Engineering and Computational Sciences students participate in engineering service trips through the SEND Program. The SEND Program offers service trips during breaks where students volunteer in U.S. and international communities, focusing on social justice and personal growth.",
     "keywords": [
       "study abroad",
       "SEND Program",
       "service trips",
       "engineering service trips",
-      "summer abroad"
-    ]
+      "summer abroad",
+      "can I study abroad",
+      "summer abroad options",
+      "service trips offered",
+      "international programs",
+      "engineering students studying abroad",
+      "volunteering trips",
+      "SEND program experiences",
+      "travel opportunities",
+      "abroad programs for engineers",
+      "study abroad scholarships"
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Study_Abroad.jpeg"
+    }
   },
   {
     "tag": "Financial Info and Enrollment",
@@ -198,7 +262,11 @@
       "financial aid",
       "deposit process",
       "bursar office"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Warrior_One_Stop.jpg"
+    }
   },
   {
     "tag": "Student Life - Challenges, Reasons for Choosing Merrimack, and Favorite Aspects",
@@ -234,7 +302,11 @@
       "mental health support",
       "Hamel Health Center",
       "therapy dogs"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Hamel_Health.jpg"
+    }
   },
   {
     "tag": "Typical Day and Class Schedules",
@@ -268,8 +340,23 @@
       "MAC",
       "club sports",
       "intramurals",
-      "group fitness classes"
-    ]
+      "group fitness classes",
+      "does Merrimack have a gym",
+      "where is the fitness center",
+      "club sports options",
+      "intramural leagues",
+      "recreation center",
+      "how big is the gym",
+      "can students use the pool",
+      "fitness classes available",
+      "group workout classes",
+      "MAC facilities",
+      "recreational sports"
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/MAC.png"
+    }
   },
   {
     "tag": "Weather and Seasonal Life on Campus",
@@ -291,7 +378,11 @@
       "welcome week",
       "student organizations",
       "leadership workshops"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Clubs.jpg"
+    }
   },
   {
     "tag": "Weekend Life and Local Area",
@@ -313,7 +404,11 @@
       "first-year housing",
       "living learning communities",
       "residence halls"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Dorm.jpg"
+    }
   },
   {
     "tag": "Time Management and Balancing Activities",
@@ -335,7 +430,11 @@
       "parking permits",
       "campus shuttle",
       "commuter involvement"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Commuter.png"
+    }
   },
   {
     "tag": "General Student Clubs and Organizations",
@@ -346,7 +445,11 @@
       "cultural clubs",
       "service groups",
       "recreational clubs"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Clubs.jpg"
+    }
   },
   {
     "tag": "Campus-Wide Events and Traditions",
@@ -358,7 +461,11 @@
       "springapalooza",
       "midnight madness",
       "campus events"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Homecoming.jpg"
+    }
   },
   {
     "tag": "Eating on Campus (Lunch and Casual Dining)",
@@ -370,7 +477,11 @@
       "dunkin on campus",
       "food trucks",
       "meal plan points"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Sparkys.png"
+    }
   },
   {
     "tag": "School Spirit, Athletics, and Game Attendance",
@@ -382,7 +493,11 @@
       "division one sports",
       "lawler arena",
       "athletic events"
-    ]
+    ],
+    "media": {
+      "type": "image",
+      "url": "http://10.2.131.89:5000/media/Hockey.png"
+    }
   },
   {
     "tag": "Involvement for New Students (Finding Your Place)",
@@ -394,5 +509,39 @@
       "making friends",
       "new student adjustment"
     ]
-  }
+  },
+  {
+    "tag": "Merrimack College Look and Feel",
+    "answer": "Merrimack College has a beautiful campus with a classic New England feel. You'll find tree-lined paths, modern academic buildings, open green spaces, and cozy spots to study. The architecture is a blend of traditional brick and newer contemporary designs. In the fall, the campus is especially stunning with colorful foliage.",
+    "keywords": [
+      "what does Merrimack look like",
+      "campus appearance",
+      "campus look",
+      "Merrimack College campus",
+      "Merrimack architecture",
+      "Merrimack atmosphere",
+      "campus scenery",
+      "Merrimack College vibe",
+      "college look and feel",
+      "how does the campus look",
+      "describe Merrimack",
+      "is Merrimack a pretty campus",
+      "how beautiful is Merrimack",
+      "how nice is the campus",
+      "campus tour",
+      "see the campus",
+      "campus views",
+      "how does Merrimack look",
+      "describe the campus",
+      "what is the campus like",
+      "can I see what Merrimack looks like",
+      "campus environment",
+      "campus vibe",
+      "describe Merrimack's atmosphere"
+    ],
+    "media": {
+      "type": "video",
+      "url": "http://10.2.131.89:5000/media/Video.mp4"
+    }
+  }  
 ]
