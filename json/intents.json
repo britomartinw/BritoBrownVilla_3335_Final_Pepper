@@ -36,7 +36,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Projects.jpg"
+      "url": "/media/Projects.jpg"
     }
   },
   {
@@ -98,7 +98,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Research.jpg"
+      "url": "/media/Research.jpg"
     }
   },
   {
@@ -113,7 +113,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Class_Size.jpeg"
+      "url": "/media/Class_Size.jpeg"
     }
   },
   {
@@ -129,7 +129,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Lab_Hours.jpg"
+      "url": "/media/Lab_Hours.jpg"
     }
   },
   {
@@ -156,7 +156,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Clubs.jpg"
+      "url": "/media/Clubs.jpg"
     }
   },
   {
@@ -183,7 +183,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Warrior_Shuttle.jpg"
+      "url": "/media/Warrior_Shuttle.jpg"
     }
   },
   {
@@ -224,7 +224,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Breaking_Bread.jpg"
+      "url": "/media/Breaking_Bread.jpg"
     }
   },
   {
@@ -249,7 +249,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Study_Abroad.jpeg"
+      "url": "/media/Study_Abroad.jpeg"
     }
   },
   {
@@ -265,7 +265,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Warrior_One_Stop.jpg"
+      "url": "/media/Warrior_One_Stop.jpg"
     }
   },
   {
@@ -305,7 +305,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Hamel_Health.jpg"
+      "url": "/media/Hamel_Health.jpg"
     }
   },
   {
@@ -355,7 +355,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/MAC.png"
+      "url": "/media/MAC.png"
     }
   },
   {
@@ -381,7 +381,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Clubs.jpg"
+      "url": "/media/Clubs.jpg"
     }
   },
   {
@@ -407,7 +407,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Dorm.jpg"
+      "url": "/media/Dorm.jpg"
     }
   },
   {
@@ -433,7 +433,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Commuter.png"
+      "url": "/media/Commuter.png"
     }
   },
   {
@@ -448,7 +448,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Clubs.jpg"
+      "url": "/media/Clubs.jpg"
     }
   },
   {
@@ -464,7 +464,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Homecoming.jpg"
+      "url": "/media/Homecoming.jpg"
     }
   },
   {
@@ -480,7 +480,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Sparkys.png"
+      "url": "/media/Sparkys.png"
     }
   },
   {
@@ -496,7 +496,7 @@
     ],
     "media": {
       "type": "image",
-      "url": "http://10.2.131.89:5000/media/Hockey.png"
+      "url": "/media/Hockey.png"
     }
   },
   {
@@ -541,7 +541,7 @@
     ],
     "media": {
       "type": "video",
-      "url": "http://10.2.131.89:5000/media/Video.mp4"
+      "url": "/media/Video.mp4"
     }
   }  
 ]
