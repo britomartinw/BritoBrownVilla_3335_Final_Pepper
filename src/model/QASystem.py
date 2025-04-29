@@ -2,6 +2,7 @@ import json
 import random
 import re
 import numpy as np
+import pandas as pd
 import pickle
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
@@ -344,5 +345,103 @@ def runQASystem():
         print(f"\nSystem: {response}")
         print(f"(Debug - intent: {predictedIntent}, Confidence: {confidence:.4f}, Level: {confidenceLevel})")
 
+def batchTest(testCases, outputPath="batch_test_results.csv"):
+    """
+    Perform batch testing on the QA system and export results to a CSV file.
+
+    Args:
+        testCases (list of tuples): List containing (inputText, expectedIntent) pairs.
+        outputPath (str): Path to save the batch test results as a CSV.
+    """
+
+    # Load the model and vectorizer
+    model, vectorizer, classes = loadModel()
+    if model is None:
+        print("Model not found. Please train the model first.")
+        return
+
+    intentsData = loadIntents()
+    if intentsData is None:
+        print("Error loading intents data")
+        return
+
+    results = []
+    correct = 0
+    total = len(testCases)
+
+    print("="*80)
+    print("Batch Test Results")
+    print("="*80)
+
+    for i, (inputText, expectedIntent) in enumerate(testCases):
+        predictedIntent, confidence = predictIntent(inputText, vectorizer, model, classes)
+        response, confidenceLevel = getResponse(predictedIntent, confidence, intentsData)
+
+        isCorrect = predictedIntent == expectedIntent
+
+        results.append({
+            "Input": inputText,
+            "Predicted Intent": predictedIntent,
+            "Expected Intent": expectedIntent,
+            "Confidence": round(confidence, 4),
+            "Confidence Level": confidenceLevel,
+            "Correct": isCorrect
+        })
+
+        print(f"Test Case {i+1}:")
+        print(f"Input: {inputText}")
+        print(f"Predicted: {predictedIntent} (Confidence: {confidence:.4f}, Level: {confidenceLevel})")
+        print(f"Expected: {expectedIntent}")
+        print(f"Result: {'✅' if isCorrect else '❌'}")
+        print("-"*80)
+
+        if isCorrect:
+            correct += 1
+
+    if total > 0:
+        accuracy = correct / total * 100
+        print(f"\nOverall Batch Test Accuracy: {accuracy:.2f}% ({correct}/{total} correct)")
+
+    # Export to CSV
+    df = pd.DataFrame(results)
+    df.to_csv(outputPath, index=False)
+    print(f"\n✅ Results exported successfully to '{outputPath}'")
+
 if __name__ == "__main__":
     runQASystem()
+
+    # Example for batch test mode:
+    # testCases = [
+    #     ("Where can I find research opportunities?", "Honors and Special Academic Opportunities"),
+    #     ("I want to know about internships", "Internships, Career Services, and Employment Outcomes"),
+    #     ("Tell me about campus dining options", "Eating on Campus (Lunch and Casual Dining)"),
+    #     ("Is there any career advising?", "Internships, Career Services, and Employment Outcomes"),
+    #     ("Who can help me with housing?", "Housing Options and Roommate Matching"),
+    #     ("Can you tell me about parking on campus?", "Commuter Life and Resources"),
+    #     ("When is the engineering fair?", "Involvement for New Students (Finding Your Place)"),
+    #     ("I'm looking for robotics clubs", "Clubs, Leadership, and Competitions"),
+    #     ("What scholarships are available?", "Scholarships and Merit Awards"),
+    #     ("How do I get help with my resume?", "Internships, Career Services, and Employment Outcomes"),
+    #     ("Are there any coding competitions?", "Clubs, Leadership, and Competitions"),
+    #     ("Where is the makerspace located?", "Lab Access and Facilities"),
+    #     ("I need advice on graduate school applications", "Industry Experience and Real-World Applications"),
+    #     ("Who organizes hackathons?", "Clubs, Leadership, and Competitions"),
+    #     ("What’s the process for study abroad?", "Study Abroad and Service Trips"),
+    #     ("Is there a shuttle service on campus?", "Campus Logistics - Transportation, Housing, Dining"),
+    #     ("Can I park my car overnight?", "Commuter Life and Resources"),
+    #     ("How can I find an academic advisor?", "Professors, Advising, and Accessibility"),
+    #     ("Where can I practice interview skills?", "Internships, Career Services, and Employment Outcomes"),
+    #     ("What events are happening this semester?", "Campus-Wide Events and Traditions"),
+    #     ("Tell me about career fairs", "Internships, Career Services, and Employment Outcomes"),
+    #     ("How to apply for financial aid?", "Financial Info and Enrollment"),
+    #     ("What majors are offered in Engineering?", "Undecided Engineering"),
+    #     ("I'm interested in machine learning projects", "Honors and Special Academic Opportunities"),
+    #     ("Can you explain what capstone projects are?", "Courses, Learning Style, and Capstone"),
+    #     ("Is there any support for commuter students?", "Commuter Life and Resources"),
+    #     ("Where can I get help with programming homework?", "Academic Support and Class Sizes"),
+    #     ("How do I join student clubs?", "Clubs, Leadership, and Competitions"),
+    #     ("Where are the campus lounges?", "Studying Habits and Community"),
+    #     ("Are there club sports on campus?", "Athletics, Fitness, and Recreation" )
+    # ]
+
+    # batchTest(testCases)
