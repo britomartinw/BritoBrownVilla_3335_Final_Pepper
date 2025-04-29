@@ -1,3 +1,5 @@
+# Script for Pepper Robot: MerrimackOpenHouse Behavior
+# Connects to a Flask server for dynamic speech recognition and media response.
 import qi
 import requests
 import json
@@ -25,10 +27,12 @@ class MyClass(GeneratedClass):
     
 
     def onLoad(self):
+        """Called when behavior starts: initialize ASR (Automatic Speech Recognition)."""
         self.logger.info("Pepper Speech Recognition Initialized")
         self.start_speech_recognition()
 
     def onUnload(self):
+        """Called when behavior stops: cleanup."""
         self.logger.info("Pepper Speech Recognition Unloaded")
         self.stop_speech_recognition()
 
@@ -87,6 +91,7 @@ class MyClass(GeneratedClass):
             self.bIsRunning = False
     
     def onWordRecognized(self, key, value, message):
+        """Triggered when a word is recognized by ASR."""
         self.logger.info("Word recognized event: %s", str(value))
         if len(value) > 1:
             raw_word = value[0]
@@ -117,6 +122,7 @@ class MyClass(GeneratedClass):
     
     
     def process_recognized_word(self, recognized_word):
+        """Send the recognized word to the Flask server and handle the response."""
         if not recognized_word:
             return
     
