@@ -29,6 +29,10 @@ public class BusinessLayer {
         return this.dataMgr.getAnswer(myIntentId);
     }
 
+    public ArrayList<String> getMedia(int myIntentId) {
+        return this.dataMgr.getMedia(myIntentId);
+    }
+
     public ArrayList<String> getKeywords(int myIntentId) {
         return this.dataMgr.getKeywords(myIntentId);
     }
@@ -44,11 +48,15 @@ public class BusinessLayer {
         String question;
         String answer;
         ArrayList<String> patterns;
+        ArrayList<String> media;
+        Media mediaObj;
         for (int i = 1; i <= getNumberOfQuestions; i++) {
             question = this.getTag(i);
             answer = this.getAnswer(i);
             patterns = this.getKeywords(i);
-            this.jsonManager.addQuestion(question, answer, patterns);
+            media = this.getMedia(i);
+            mediaObj = new Media(media.get(0), media.get(1));
+            this.jsonManager.addQuestion(question, answer, patterns, mediaObj);
         }
 
     }

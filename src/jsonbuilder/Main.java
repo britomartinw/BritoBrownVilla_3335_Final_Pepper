@@ -17,6 +17,7 @@ public class Main {
         // System.out.println(bLayer.getAnswer(1));
         System.out.println(bLayer.getKeywords(5));
         System.out.println(bLayer.getNumberOfIntents());
+        System.out.println(bLayer.getMedia(35));
         bLayer.addAllIntents();
     }
 }
