@@ -35,6 +35,23 @@ DELIMITER ;
 -- Testing
 -- CALL getAnswer(1);
 
+-- Stored procedure to get the medie type and url
+DELIMITER $$
+DROP PROCEDURE IF EXISTS getMedia$$
+
+CREATE PROCEDURE getMedia(
+in myIntentId INT
+)
+BEGIN
+	SELECT media AS Type, url as URL
+	FROM Intent
+    WHERE intentId = myIntentId;
+END $$
+DELIMITER ;
+
+-- Testing
+-- CALL getMedia(35);
+
 -- Stored procedure to get the patterns for the inputed question id
 DELIMITER $$
 DROP PROCEDURE IF EXISTS getKeywords$$

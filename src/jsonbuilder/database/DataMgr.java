@@ -53,6 +53,22 @@ public class DataMgr {
         }
         return answer;
     }
+    
+    public ArrayList<String> getMedia(int myIntentId) {
+        ArrayList<String> media = new ArrayList<>();
+        try {
+            CallableStatement stmt = this.connection.prepareCall("{CALL getMedia(?)}");
+            stmt.setInt(1, myIntentId);
+            ResultSet rs = stmt.executeQuery();
+            if (rs.next()) {
+                media.add(rs.getString("Type"));
+                media.add(rs.getString("URL"));
+            }
+        } catch (SQLException e) {
+            System.out.println("Failed to execute stored procedure: " + e.getMessage());
+        }
+        return media;
+    }
 
     public ArrayList<String> getKeywords(int myIntentId) {
         ArrayList<String> keywords = new ArrayList<String>();

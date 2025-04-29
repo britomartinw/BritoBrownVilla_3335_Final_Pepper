@@ -64,13 +64,9 @@ def preprocessText(text):
     # Custom stopwords that are relevant to merrimack
     custom_stop_words = {
         'merrimack', 'ecs', 'engineering', 'computational', 'sciences',
-        'student', 'students', 'professor', 'professors',
-        'course', 'courses', 'class', 'classes', 'program', 'programs',
-        'center', 'building', 'facilities','learningstyle',
-        'trip', 'trips','servicelearning'
+        'student', 'students'
     }
 
-    
     # Merge
     stopWords = stopWords | custom_stop_words
 

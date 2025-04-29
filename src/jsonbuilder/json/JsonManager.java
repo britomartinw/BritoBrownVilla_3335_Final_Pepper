@@ -7,7 +7,8 @@ import java.lang.reflect.Type;
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
 
-import jsonbuilder.database.Inntent;
+import jsonbuilder.database.Intent;
+import jsonbuilder.database.Media;
 
 public class JsonManager {
     private Gson gson;
@@ -18,12 +19,12 @@ public class JsonManager {
         this.filePath = "json/intents.json";
     }
 
-    public boolean addQuestion(String question, String answer, ArrayList<String> patterns) {
+    public boolean addQuestion(String question, String answer, ArrayList<String> patterns, Media media) {
         try {
             // Read existing JSON file
-            ArrayList<Inntent> existinQuestions = new ArrayList<>();
+            ArrayList<Intent> existinQuestions = new ArrayList<>();
             FileReader reader = new FileReader(this.filePath);
-            Type listType = new TypeToken<List<Inntent>>() {
+            Type listType = new TypeToken<List<Intent>>() {
             }.getType();
             existinQuestions = gson.fromJson(reader, listType);
             reader.close();
@@ -33,7 +34,7 @@ public class JsonManager {
             }
 
             // Add a new person
-            existinQuestions.add(new Inntent(question, answer, patterns));
+            existinQuestions.add(new Intent(question, answer, patterns, media));
 
             // Write updated list back to the file
             try (FileWriter writer = new FileWriter(this.filePath)) {
@@ -50,7 +51,7 @@ public class JsonManager {
                 System.out.println("An error occurred.");
                 e2.printStackTrace();
             }
-            addQuestion(question, answer, patterns);
+            addQuestion(question, answer, patterns, media);
         }
         return true;
     }

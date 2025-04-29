@@ -2,6 +2,10 @@
   {
     "tag": "Professors, Advising, and Accessibility",
     "answer": "Professors in introductory Engineering and Computational Sciences courses often have a big impact on students. They explain concepts clearly and encourage critical thinking and curiosity. Advising is very simple and easy. Everything is pretty straightforward and its pretty easy to get in contact with your advisors. Most professors and advisors are approachable and responsive, regularly meeting with students during office hours or over email. Many students say they wish they had reached out to professors sooner - faculty are approachable and eager to help.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "professors",
       "faculty",
@@ -9,12 +13,21 @@
       "advisor meetings",
       "accessibility",
       "office hours",
-      "email responses"
+      "email responses",
+      "faculty meetings",
+      "professor availability",
+      "academic advising",
+      "advisor appointments",
+      "meet with advisors"
     ]
   },
   {
     "tag": "Courses, Learning Style, and Capstone",
     "answer": "Many Engineering and Computational Sciences courses are hands-on. Students regularly code and build projects, especially in advanced classes. Even theory-heavy courses tend to include practical components. Engineering and Computational Sciences seniors complete a semester-long capstone. Faculty propose project ideas, and students select one to develop and present.",
+    "media": {
+      "type": "image",
+      "url": "/media/Projects.jpg"
+    },
     "keywords": [
       "hands-on courses",
       "project-based learning",
@@ -22,48 +35,58 @@
       "labs and builds",
       "capstone project",
       "semester project",
-      "what are classes like",
-      "how are courses taught",
-      "do students build projects",
-      "hands-on learning examples",
-      "capstone course",
-      "final year project",
-      "engineering projects",
-      "computational sciences capstone",
-      "senior design project",
-      "building real-world projects",
-      "practical coursework"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Projects.jpg"
-    }
+      "project-oriented classes",
+      "team-based learning",
+      "classroom projects",
+      "hands-on labs"
+    ]
   },
   {
     "tag": "Industry Experience and Real-World Applications",
     "answer": " Many professors have industry backgrounds and incorporate real-world examples and emerging technologies into their teaching.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "industry experience",
-      "real-world examples",
+      "real world examples",
       "emerging technologies",
       "practical applications",
-      "industry-connected faculty"
+      "industry-connected faculty",
+      "internship programs",
+      "industry partnerships",
+      "corporate connections",
+      "practical training",
+      "real world techniques"
     ]
   },
   {
     "tag": "Honors and Special Academic Opportunities",
     "answer": "Yes, theres an Honors Program for students seeking deeper academic challenges. Independent research and advanced electives are also available.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "honors program",
       "advanced electives",
       "independent research",
       "academic challenges",
-      "research opportunities"
+      "research opportunities",
+      "scholarship opportunities",
+      "graduate-level electives",
+      "research funding",
+      "specialized courses"
     ]
   },
   {
     "tag": "Internships, Career Services, and Employment Outcomes",
     "answer": "Engineering and Computational Sciences students intern at software companies, engineering firms, research labs, local startups, and major organizations like Raytheon and Microsoft. The OBrien Center provides personalized resume reviews, mock interviews, and career fairs. Faculty also support students with feedback and opportunity recommendations. Warriors at Work is a career development initiative from the OBrien Center. Students can apply and learn more through their website or staff. Graduates have gone on to organizations like Microsoft and MITRE, or continued their education at schools such as Northeastern and UMass Amherst.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "internships",
       "career services",
@@ -73,105 +96,137 @@
       "career fairs",
       "graduate schools",
       "job placement",
-      "help finding internships",
-      "career center support",
-      "resume help services",
-      "finding a job after graduation",
-      "internship opportunities",
-      "how does career services help",
-      "companies students intern with",
-      "career fairs at Merrimack",
-      "job placement rate",
-      "employment outcomes after college"
+      "job search support",
+      "career guidance",
+      "resume building workshops",
+      "job preparation resources",
+      "internship"
     ]
-  }
-  ,
+  },
   {
     "tag": "Research, Publishing, and Summer Opportunities",
     "answer": "Students can join ongoing faculty research or start independent projects. Those who contribute meaningfully often co-author publications. Students can work with faculty on research over the summer, sometimes with stipends.",
+    "media": {
+      "type": "image",
+      "url": "/media/Research.jpg"
+    },
     "keywords": [
       "student research",
       "faculty research",
       "summer stipends",
       "co-author publications",
-      "research collaboration"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Research.jpg"
-    }
+      "research collaboration",
+      "academic publications",
+      "faculty collaboration",
+      "student publications",
+      "research conferences"
+    ]
   },
   {
     "tag": "Academic Support and Class Sizes",
     "answer": "Engineering and Computational Sciences classes are typically small - around 15-25 students - allowing for more direct support and interaction with faculty. Tutoring is available through the Math Center and Peer Tutoring, especially for challenging courses like Data Structures and Circuits.",
+    "media": {
+      "type": "image",
+      "url": "/media/Class_Size.jpeg"
+    },
     "keywords": [
       "small class sizes",
       "academic support",
       "peer tutoring",
       "math center",
-      "one-on-one help"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Class_Size.jpeg"
-    }
+      "one-on-one help",
+      "individualized instruction",
+      "student-faculty ratio",
+      "learning resources",
+      "faculty-student engagement",
+      "peer tutors"
+    ]
   },
   {
     "tag": "Lab Access and Facilities",
     "answer": " Most labs and makerspaces remain open in the evenings and on weekends, and students can access them with their Mack Cards. Engineering and Computational Sciences facilities include modern labs, a robotics lab, and a makerspace equipped with 3D printers and other tools.",
+    "media": {
+      "type": "image",
+      "url": "/media/Lab_Hours.jpg"
+    },
     "keywords": [
       "labs",
       "makerspaces",
       "robotics lab",
       "3D printers",
       "Mack Card access",
-      "lab hours"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Lab_Hours.jpg"
-    }
+      "lab hours",
+      "research projects",
+      "tech labs",
+      "engineering workshops",
+      "design studios",
+      "available facilities"
+    ]
   },
   {
     "tag": "Collaboration Across Majors",
     "answer": " Collaboration between CS and Engineering students is common, especially in research and clubs that combine coding and hardware. Interdisciplinary collaboration happens through innovation challenges, joint classes, and service projects across schools.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "CS and Engineering collaboration",
       "interdisciplinary projects",
       "joint classes",
       "innovation challenges",
-      "service projects"
+      "service projects",
+      "cross-disciplinary learning",
+      "joint projects with engineering",
+      "innovation labs",
+      "tech challenges"
     ]
   },
   {
     "tag": "Clubs, Leadership, and Competitions",
     "answer": "Clubs include SWE, Robotics, NSBE, Lets Innovate, the Computer Club, and others focused on tech and engineering interests. Most clubs meet weekly and are considerate of academic demands, helping students manage both involvement and schoolwork effectively. Merrimack hosts some events, and students also attend hackathons at nearby institutions for hands-on experience and networking. Students can take on leadership roles in clubs, guide team projects, or serve as peer mentors and tutors.",
+    "media": {
+      "type": "image",
+      "url": "/media/Clubs.jpg"
+    },
     "keywords": [
       "clubs",
       "hackathons",
       "student leadership",
       "club meetings",
       "technical clubs",
-      "peer mentoring"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Clubs.jpg"
-    }
+      "peer mentoring",
+      "coding competitions",
+      "tech meetups",
+      "club participation",
+      "volunteer opportunities"
+    ]
   },
   {
     "tag": "Undecided Engineering",
     "answer": "Undecided Engineering students take general courses that apply across majors. Advisors help them explore interests before choosing a specific path.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "undecided engineering students",
       "advisors",
       "general engineering courses",
-      "major exploration"
+      "major exploration",
+      "undecided major",
+      "general engineering courses",
+      "exploring career paths",
+      "major transition support"
     ]
   },
   {
     "tag": "Campus Logistics - Transportation, Housing, Dining",
     "answer": "Most Engineering and Computational Sciences students walk or use the campus shuttle to travel between buildings. Most Engineering and Computational Sciences classes are held on the east side, while general education classes are typically located on the main campus. Housing is available on campus for all years, and off-campus apartments are located nearby for upperclassmen. Engineering and Computational Sciences students can eat at a smaller dining location on the Engineering and Computational Sciences side or at a food truck during warmer months, both accepting meal swipes.",
+    "media": {
+      "type": "image",
+      "url": "/media/Warrior_Shuttle.jpg"
+    },
     "keywords": [
       "transportation",
       "campus shuttle",
@@ -179,28 +234,41 @@
       "on-campus living",
       "off-campus apartments",
       "dining options",
-      "meal swipes"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Warrior_Shuttle.jpg"
-    }
+      "meal swipes",
+      "on-campus housing",
+      "commuting options",
+      "meal plan options",
+      "campus living facilities"
+    ]
   },
   {
     "tag": "Studying Habits and Community",
     "answer": "Popular study spots include the second-floor lounge in the Engineering and Computational Sciences building, which is conveniently close to faculty offices. It varies. Many students study in groups for projects, while others prefer studying independently. The Engineering and Computational Sciences community is tight-knit and supportive. Students help one another, and faculty are genuinely invested in student success.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "study spots",
       "second floor lounge",
       "community support",
       "group study",
       "independent study",
-      "tight-knit community"
+      "tight-knit community",
+      "study lounges",
+      "quiet study areas",
+      "library spaces",
+      "collaborative study spaces",
+      "hidden spots"
     ]
   },
   {
     "tag": "Programming, Tools, and Projects",
-    "answer": "Students typically learn Java, Python, SQL, and sometimes JavaScript or C/C++, depending on the electives taken. Courses use tools like VSCode, GitHub, MATLAB, and more. Most instructors allow students to use any I D E as long as the work is completed correctly. Students are encouraged to build GitHub portfolios and some contribute to the colleges open-source utilities.",
+    "answer": "Students typically learn Java, Python, SQL, and sometimes JavaScript or C/C++, depending on the electives taken. Courses use tools like VSCode, GitHub, MATLAB, and more. Most instructors allow students to use any IDE as long as the work is completed correctly. Students are encouraged to build GitHub portfolios and some contribute to the colleges open-source utilities.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "programming languages",
       "Java",
@@ -209,131 +277,183 @@
       "software tools",
       "VSCode",
       "GitHub",
-      "open-source projects"
+      "open-source projects",
+      "C++ programming",
+      "JavaScript",
+      "R programming",
+      "programming assignments",
+      "coding environments"
     ]
   },
   {
     "tag": "Cultural Adaptation and Support for Underrepresented Students",
     "answer": "There are orientation programs, and the campus community is generally welcoming and eager to learn about different cultures and experiences. Programs like Compass and mentoring initiatives through academic departments and the OBrien Center support underrepresented students.",
+    "media": {
+      "type": "image",
+      "url": "/media/Breaking_Bread.jpg"
+    },
     "keywords": [
       "international students",
       "underrepresented students",
       "Compass program",
       "diversity support",
-      "mentoring initiatives"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Breaking_Bread.jpg"
-    }
+      "mentoring initiatives",
+      "cultural inclusion",
+      "student organizations for diversity",
+      "support for minorities",
+      "multicultural events",
+      "other cultures"
+    ]
   },
   {
     "tag": "Study Abroad and Service Trips",
-    "answer": "Students can study abroad during the summer or semester, and some Engineering and Computational Sciences students participate in engineering service trips through the SEND Program. The SEND Program offers service trips during breaks where students volunteer in U.S. and international communities, focusing on social justice and personal growth.",
+    "answer": " Students can study abroad during the summer or semester, and some Engineering and Computational Sciences students participate in engineering service trips through the SEND Program. The SEND Program offers service trips during breaks where students volunteer in U.S. and international communities, focusing on social justice and personal growth.",
+    "media": {
+      "type": "image",
+      "url": "/media/Study_Abroad.jpeg"
+    },
     "keywords": [
       "study abroad",
       "SEND Program",
       "service trips",
       "engineering service trips",
       "summer abroad",
-      "can I study abroad",
-      "summer abroad options",
-      "service trips offered",
-      "international programs",
-      "engineering students studying abroad",
-      "volunteering trips",
-      "SEND program experiences",
-      "travel opportunities",
-      "abroad programs for engineers",
-      "study abroad scholarships"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Study_Abroad.jpeg"
-    }
+      "volunteer trips",
+      "service-learning experiences",
+      "global internships",
+      "travel abroad experiences"
+    ]
   },
   {
     "tag": "Financial Info and Enrollment",
     "answer": "Tuition is managed through the Bursars Office, and students can set up payment plans through the college portal. Students can contact the Financial Aid Office or visit the Merrimack website under Scholarships \u0026 Aid. Deposits are made through the Admissions Portal. The Admissions Office on the main campus is available to assist if needed.",
+    "media": {
+      "type": "image",
+      "url": "/media/Warrior_One_Stop.jpg"
+    },
     "keywords": [
       "tuition payment",
       "payment plans",
       "scholarships",
       "financial aid",
       "deposit process",
-      "bursar office"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Warrior_One_Stop.jpg"
-    }
+      "bursar office",
+      "financial aid application",
+      "tuition assistance",
+      "student loans",
+      "financial workshops"
+    ]
   },
   {
     "tag": "Student Life - Challenges, Reasons for Choosing Merrimack, and Favorite Aspects",
     "answer": "Balancing coursework and managing time is often a challenge at first, but support systems are in place to help. Students often cite small class sizes, early research opportunities, and a strong support system as key reasons. The strong sense of community. Students appreciate being recognized and having close connections with professors and peers.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "student life",
       "balancing coursework",
       "challenges",
       "reasons for choosing Merrimack",
       "favorite aspects",
-      "close community"
+      "close community",
+      "student organizations",
+      "leadership roles in clubs",
+      "community involvement",
+      "student volunteerism",
+      "balance homework"
     ]
   },
   {
     "tag": "First-Year Experience and Transition Support",
     "answer": "First-year Engineering and Computational Sciences students have access to special programs like the First-Year Experience (FYE) course, which helps with academic skills, career planning, and adjusting to college life. Peer mentors and orientation leaders are available to guide students during their transition. Faculty advisors are also assigned early on to help plan course schedules and answer questions.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
-      "first-year experience",
+      "first year experience",
       "transition support",
       "FYE course",
       "peer mentors",
       "orientation leaders",
-      "academic advisors"
+      "academic advisors",
+      "mentorship programs",
+      "peer advisor programs",
+      "first year success",
+      "upperclassmen mentors"
     ]
   },
   {
     "tag": "Health, Wellness, and Counseling Services",
     "answer": "The Hamel Health Center offers medical services, counseling, and wellness programming. Students can schedule appointments for physical and mental health services. Counseling support is free, and the college regularly hosts events promoting mental well-being, like stress relief days and therapy dog visits.",
+    "media": {
+      "type": "image",
+      "url": "/media/Hamel_Health.jpg"
+    },
     "keywords": [
       "health services",
       "wellness programs",
       "counseling services",
       "mental health support",
       "Hamel Health Center",
-      "therapy dogs"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Hamel_Health.jpg"
-    }
+      "therapy dogs",
+      "physical health programs",
+      "counseling resources",
+      "support for anxiety",
+      "health and wellness events",
+      "mental help",
+      "mental issues"
+    ]
   },
   {
     "tag": "Typical Day and Class Schedules",
     "answer": "A typical day might include a mix of lectures, lab sessions, and study blocks. Engineering and Computational Sciences classes usually run between 8:00 AM and 6:00 PM, with gaps for meals, studying, and club meetings. Labs are often scheduled in the afternoons and can last a few hours. Students usually balance classes, homework, group meetings, and time to relax.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "daily schedule",
       "class times",
       "typical day",
       "lab sessions",
       "study blocks",
-      "academic life"
+      "academic life",
+      "class schedules",
+      "classroom hours",
+      "free time in between classes",
+      "workshops and seminars",
+      "average day"
     ]
   },
   {
     "tag": "Scholarships and Merit Awards",
     "answer": "Merrimack automatically considers admitted students for merit scholarships based on academic achievements. Additional scholarships may be available based on financial need, special interests, or participation in programs like Honors. Students can also apply for external scholarships and research assistantships once enrolled.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "merit scholarships",
       "financial awards",
       "academic scholarships",
       "external scholarships",
-      "honors scholarships"
+      "honors scholarships",
+      "scholarship deadlines",
+      "external funding opportunities",
+      "scholarship eligibility",
+      "financial aid deadlines"
     ]
   },
   {
     "tag": "Athletics, Fitness, and Recreation",
     "answer": "Students have access to the Merrimack Athletics Complex (MAC), fitness classes, club sports, and intramural leagues. There is a large gym, indoor track, pool, and courts available. Even non-athletes can join fitness classes like yoga, Zumba, or lifting programs.",
+    "media": {
+      "type": "image",
+      "url": "/media/MAC.png"
+    },
     "keywords": [
       "athletics",
       "fitness center",
@@ -341,178 +461,236 @@
       "club sports",
       "intramurals",
       "group fitness classes",
-      "does Merrimack have a gym",
-      "where is the fitness center",
-      "club sports options",
-      "intramural leagues",
-      "recreation center",
-      "how big is the gym",
-      "can students use the pool",
-      "fitness classes available",
-      "group workout classes",
-      "MAC facilities",
-      "recreational sports"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/MAC.png"
-    }
+      "sports teams",
+      "fitness challenges",
+      "gym facilities",
+      "wellness programs"
+    ]
   },
   {
     "tag": "Weather and Seasonal Life on Campus",
     "answer": "Merrimack experiences all four seasons. Fall is beautiful with colorful leaves, winters can bring snow and cold temperatures, spring brings mild weather and flowers, and summers are warm. Students typically layer up in winter and take advantage of indoor study spaces. Snow events are handled efficiently, and the campus community stays active all year.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "seasonal life",
       "weather on campus",
       "snow and winter",
       "fall foliage",
-      "spring and summer"
+      "spring and summer",
+      "local weather patterns",
+      "campus events calendar",
+      "seasonal festivals",
+      "holiday celebrations"
     ]
   },
   {
     "tag": "Making Friends and Getting Involved",
     "answer": "Joining clubs, participating in Welcome Week events, and living on campus are some of the easiest ways to make friends. Many students meet people through classes, shared study spaces, and group projects. The college encourages involvement and offers leadership workshops and social events year-round.",
+    "media": {
+      "type": "image",
+      "url": "/media/Clubs.jpg"
+    },
     "keywords": [
       "making friends",
       "getting involved",
       "welcome week",
       "student organizations",
-      "leadership workshops"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Clubs.jpg"
-    }
+      "leadership workshops",
+      "social activities",
+      "making connections",
+      "club involvement",
+      "team-building activities"
+    ]
   },
   {
     "tag": "Weekend Life and Local Area",
     "answer": "On weekends, students often attend campus events, participate in club activities, study, or explore the surrounding area. Merrimack is close to Boston, beaches, and hiking trails. Students can take campus shuttles, carpool, or use the commuter rail to go into the city. The local area also offers shopping, restaurants, and entertainment.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "weekend activities",
       "local area",
       "Boston trips",
       "campus events",
-      "off-campus exploration"
+      "off-campus exploration",
+      "weekend getaways",
+      "local hikes",
+      "weekend events",
+      "community outings"
     ]
   },
   {
     "tag": "Housing Options and Roommate Matching",
     "answer": "First-year students typically live in residence halls with roommates assigned based on a questionnaire about living habits. Upperclassmen can live in suites, apartments, or off-campus housing nearby. There are Living Learning Communities (LLCs) for students who want to live with peers who share similar interests.",
+    "media": {
+      "type": "image",
+      "url": "/media/Dorm.jpg"
+    },
     "keywords": [
       "housing options",
       "roommate matching",
       "first-year housing",
       "living learning communities",
-      "residence halls"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Dorm.jpg"
-    }
+      "residence halls",
+      "housing applications",
+      "room assignments",
+      "residence hall activities",
+      "apartment tours"
+    ]
   },
   {
     "tag": "Time Management and Balancing Activities",
     "answer": "Engineering and Computational Sciences students often find success by using planners, scheduling their study time, and setting priorities early on. Professors understand that students are involved in multiple activities and encourage communication if conflicts arise. Campus resources like the Academic Success Center offer time management workshops.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "time management",
       "balancing academics",
       "study skills",
       "academic success center",
-      "priority setting"
+      "priority setting",
+      "study resources",
+      "academic workshops",
+      "study schedules",
+      "peer tutoring",
+      "social and academic balance"
     ]
   },
   {
     "tag": "Commuter Life and Resources",
     "answer": "Commuters are a big part of the Merrimack community. There are commuter lounges on campus where students can study, relax, and store personal items. Commuters often stay involved through clubs, events, and academic support programs. Parking permits are available and the shuttle system makes getting around campus easy.",
+    "media": {
+      "type": "image",
+      "url": "/media/Commuter.png"
+    },
     "keywords": [
       "commuters",
       "commuter lounge",
       "parking permits",
       "campus shuttle",
-      "commuter involvement"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Commuter.png"
-    }
+      "commuter involvement",
+      "commuting options for students",
+      "commuter students events",
+      "commuter study space",
+      "parking access"
+    ]
   },
   {
     "tag": "General Student Clubs and Organizations",
     "answer": "Merrimack offers more than just academic clubs - there are social clubs, cultural organizations, service groups, and recreational clubs. From theater productions and dance teams to business clubs and gaming groups, there is something for everyone. Students are encouraged to explore and join multiple groups.",
+    "media": {
+      "type": "image",
+      "url": "/media/Clubs.jpg"
+    },
     "keywords": [
       "student clubs",
       "social organizations",
       "cultural clubs",
       "service groups",
-      "recreational clubs"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Clubs.jpg"
-    }
+      "recreational clubs",
+      "cultural diversity in clubs",
+      "student-led initiatives",
+      "group activities",
+      "recreational events",
+      "nonformal clubs",
+      "fun clubs"
+    ]
   },
   {
     "tag": "Campus-Wide Events and Traditions",
     "answer": "Merrimack hosts many fun traditions throughout the year, like Homecoming, Macktoberfest, Springapalooza, and Midnight Madness. Events usually feature free food, games, and activities. Both commuters and residents get involved. There are also guest speakers, concerts, and charity events.",
+    "media": {
+      "type": "image",
+      "url": "/media/Homecoming.jpg"
+    },
     "keywords": [
       "campus traditions",
       "homecoming",
       "Macktoberfest",
       "springapalooza",
       "midnight madness",
-      "campus events"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Homecoming.jpg"
-    }
+      "campus events",
+      "Merrimack traditions",
+      "Merrimack festivals",
+      "community gatherings",
+      "annual events",
+      "fun events"
+    ]
   },
   {
     "tag": "Eating on Campus (Lunch and Casual Dining)",
     "answer": "Besides the main dining hall, students often grab food from Sparkys Place, The Warriors Den, Dunkin, or food trucks on campus. Meal plans cover most locations, and points can be used for extra flexibility. There are spots to eat near both the Engineering side and the main campus.",
+    "media": {
+      "type": "image",
+      "url": "/media/Sparkys.png"
+    },
     "keywords": [
       "dining options",
       "sparkys place",
       "warriors den",
       "dunkin on campus",
       "food trucks",
-      "meal plan points"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Sparkys.png"
-    }
+      "meal plan points",
+      "campus eateries",
+      "on-campus dining",
+      "healthy food options",
+      "meal preferences"
+    ]
   },
   {
     "tag": "School Spirit, Athletics, and Game Attendance",
     "answer": "Even if you arent an athlete, going to games is a big part of campus life. Hockey games at Lawler Arena are especially popular and often free or discounted for students. Merrimack has Division One sports teams, and many students attend games together to support the Warriors.",
+    "media": {
+      "type": "image",
+      "url": "/media/Hockey.png"
+    },
     "keywords": [
       "school spirit",
       "attending games",
       "hockey games",
       "division one sports",
       "lawler arena",
-      "athletic events"
-    ],
-    "media": {
-      "type": "image",
-      "url": "/media/Hockey.png"
-    }
+      "athletic events",
+      "attending athletic events",
+      "sports team support",
+      "spirit events",
+      "school sports"
+    ]
   },
   {
     "tag": "Involvement for New Students (Finding Your Place)",
     "answer": "It can seem overwhelming at first, but new students quickly find their place. Welcome Week activities, club fairs, and social events are designed to help everyone connect. Joining even one club or attending a few events makes it much easier to make friends and get comfortable.",
+    "media": {
+      "type": "",
+      "url": ""
+    },
     "keywords": [
       "getting involved",
       "welcome week",
       "club fair",
       "making friends",
-      "new student adjustment"
+      "new student adjustment",
+      "student welcome programs",
+      "getting acquainted with campus",
+      "orientation activities",
+      "student meetups",
+      "first year experience"
     ]
   },
   {
     "tag": "Merrimack College Look and Feel",
     "answer": "Merrimack College has a beautiful campus with a classic New England feel. You'll find tree-lined paths, modern academic buildings, open green spaces, and cozy spots to study. The architecture is a blend of traditional brick and newer contemporary designs. In the fall, the campus is especially stunning with colorful foliage.",
+    "media": {
+      "type": "video",
+      "url": "/media/Video.mp4"
+    },
     "keywords": [
       "what does Merrimack look like",
       "campus appearance",
@@ -527,21 +705,7 @@
       "describe Merrimack",
       "is Merrimack a pretty campus",
       "how beautiful is Merrimack",
-      "how nice is the campus",
-      "campus tour",
-      "see the campus",
-      "campus views",
-      "how does Merrimack look",
-      "describe the campus",
-      "what is the campus like",
-      "can I see what Merrimack looks like",
-      "campus environment",
-      "campus vibe",
-      "describe Merrimack's atmosphere"
-    ],
-    "media": {
-      "type": "video",
-      "url": "/media/Video.mp4"
-    }
-  }  
+      "how nice is the campus"
+    ]
+  }
 ]
