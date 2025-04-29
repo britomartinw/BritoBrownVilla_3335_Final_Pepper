@@ -1,31 +1,31 @@
 Input,Predicted Intent,Expected Intent,Confidence,Confidence Level,Correct
-Where can I find research opportunities?,Honors and Special Academic Opportunities,Honors and Special Academic Opportunities,0.2629,medium,True
-I want to know about internships,"Internships, Career Services, and Employment Outcomes","Internships, Career Services, and Employment Outcomes",0.1457,medium,True
-Tell me about campus dining options,Eating on Campus (Lunch and Casual Dining),Eating on Campus (Lunch and Casual Dining),0.1539,medium,True
-Is there any career advising?,"Internships, Career Services, and Employment Outcomes","Internships, Career Services, and Employment Outcomes",0.1124,medium,True
-Who can help me with housing?,Housing Options and Roommate Matching,Housing Options and Roommate Matching,0.1366,medium,True
-Can you tell me about parking on campus?,Commuter Life and Resources,Commuter Life and Resources,0.132,medium,True
-When is the engineering fair?,Involvement for New Students (Finding Your Place),Involvement for New Students (Finding Your Place),0.1507,medium,True
-I'm looking for robotics clubs,General Student Clubs and Organizations,"Clubs, Leadership, and Competitions",0.12,medium,False
-What scholarships are available?,Scholarships and Merit Awards,Scholarships and Merit Awards,0.1692,medium,True
-How do I get help with my resume?,"Internships, Career Services, and Employment Outcomes","Internships, Career Services, and Employment Outcomes",0.155,medium,True
-Are there any coding competitions?,"Courses, Learning Style, and Capstone","Clubs, Leadership, and Competitions",0.0548,low,False
-Where is the makerspace located?,"Programming, Tools, and Projects",Lab Access and Facilities,0.0341,low,False
-I need advice on graduate school applications,Industry Experience and Real-World Applications,Industry Experience and Real-World Applications,0.0731,low,True
-Who organizes hackathons?,"Clubs, Leadership, and Competitions","Clubs, Leadership, and Competitions",0.1773,medium,True
-What’s the process for study abroad?,Study Abroad and Service Trips,Study Abroad and Service Trips,0.1968,medium,True
-Is there a shuttle service on campus?,Commuter Life and Resources,"Campus Logistics - Transportation, Housing, Dining",0.1043,medium,False
-Can I park my car overnight?,"Programming, Tools, and Projects",Commuter Life and Resources,0.0341,low,False
-How can I find an academic advisor?,First-Year Experience and Transition Support,"Professors, Advising, and Accessibility",0.1161,medium,False
-Where can I practice interview skills?,Time Management and Balancing Activities,"Internships, Career Services, and Employment Outcomes",0.0984,low,False
-What events are happening this semester?,Weekend Life and Local Area,Campus-Wide Events and Traditions,0.0823,low,False
-Tell me about career fairs,"Internships, Career Services, and Employment Outcomes","Internships, Career Services, and Employment Outcomes",0.2217,medium,True
-How to apply for financial aid?,Financial Info and Enrollment,Financial Info and Enrollment,0.1824,medium,True
-What majors are offered in Engineering?,Undecided Engineering,Undecided Engineering,0.1023,medium,True
-I'm interested in machine learning projects,"Courses, Learning Style, and Capstone",Honors and Special Academic Opportunities,0.2512,medium,False
-Can you explain what capstone projects are?,"Courses, Learning Style, and Capstone","Courses, Learning Style, and Capstone",0.4237,medium,True
-Is there any support for commuter students?,Commuter Life and Resources,Commuter Life and Resources,0.2587,medium,True
-Where can I get help with programming homework?,"Internships, Career Services, and Employment Outcomes",Academic Support and Class Sizes,0.0738,low,False
-How do I join student clubs?,General Student Clubs and Organizations,"Clubs, Leadership, and Competitions",0.2915,medium,False
-Where are the campus lounges?,Merrimack College Look and Feel,Studying Habits and Community,0.1085,medium,False
-Are there club sports on campus?,General Student Clubs and Organizations,"Athletics, Fitness, and Recreation",0.0917,low,False
+Where can I find research opportunities?,Honors and Special Academic Opportunities,Honors and Special Academic Opportunities,0.393,medium,True
+I want to know about internships,"Internships, Career Services, and Employment Outcomes","Internships, Career Services, and Employment Outcomes",0.2207,medium,True
+Tell me about campus dining options,Eating on Campus (Lunch and Casual Dining),Eating on Campus (Lunch and Casual Dining),0.2669,medium,True
+Is there any career advising?,"Professors, Advising, and Accessibility","Internships, Career Services, and Employment Outcomes",0.1394,medium,False
+Who can help me with housing?,Housing Options and Roommate Matching,Housing Options and Roommate Matching,0.1445,medium,True
+Can you tell me about parking on campus?,Commuter Life and Resources,Commuter Life and Resources,0.1947,medium,True
+When is the engineering fair?,Involvement for New Students (Finding Your Place),Involvement for New Students (Finding Your Place),0.115,medium,True
+I'm looking for robotics clubs,General Student Clubs and Organizations,"Clubs, Leadership, and Competitions",0.1246,medium,False
+What scholarships are available?,Scholarships and Merit Awards,Scholarships and Merit Awards,0.1765,medium,True
+How do I get help with my resume?,"Internships, Career Services, and Employment Outcomes","Internships, Career Services, and Employment Outcomes",0.1703,medium,True
+Are there any coding competitions?,"Clubs, Leadership, and Competitions","Clubs, Leadership, and Competitions",0.1408,medium,True
+Where is the makerspace located?,"Programming, Tools, and Projects",Lab Access and Facilities,0.0332,low,False
+I need advice on graduate school applications,"Internships, Career Services, and Employment Outcomes",Industry Experience and Real-World Applications,0.0864,low,False
+Who organizes hackathons?,"Clubs, Leadership, and Competitions","Clubs, Leadership, and Competitions",0.1503,medium,True
+What’s the process for study abroad?,Study Abroad and Service Trips,Study Abroad and Service Trips,0.1783,medium,True
+Is there a shuttle service on campus?,"Campus Logistics - Transportation, Housing, Dining","Campus Logistics - Transportation, Housing, Dining",0.0813,low,True
+Can I park my car overnight?,"Programming, Tools, and Projects",Commuter Life and Resources,0.0332,low,False
+How can I find an academic advisor?,First-Year Experience and Transition Support,"Professors, Advising, and Accessibility",0.1274,medium,False
+Where can I practice interview skills?,Time Management and Balancing Activities,"Internships, Career Services, and Employment Outcomes",0.065,low,False
+What events are happening this semester?,Campus-Wide Events and Traditions,Campus-Wide Events and Traditions,0.0816,low,True
+Tell me about career fairs,"Internships, Career Services, and Employment Outcomes","Internships, Career Services, and Employment Outcomes",0.2372,medium,True
+How to apply for financial aid?,Financial Info and Enrollment,Financial Info and Enrollment,0.3432,medium,True
+What majors are offered in Engineering?,Undecided Engineering,Undecided Engineering,0.3606,medium,True
+I'm interested in machine learning projects,"Courses, Learning Style, and Capstone",Honors and Special Academic Opportunities,0.3931,medium,False
+Can you explain what capstone projects are?,"Courses, Learning Style, and Capstone","Courses, Learning Style, and Capstone",0.2913,medium,True
+Is there any support for commuter students?,Commuter Life and Resources,Commuter Life and Resources,0.3546,medium,True
+Where can I get help with programming homework?,"Programming, Tools, and Projects",Academic Support and Class Sizes,0.1457,medium,False
+How do I join student clubs?,General Student Clubs and Organizations,"Clubs, Leadership, and Competitions",0.3199,medium,False
+Where are the campus lounges?,Merrimack College Look and Feel,Studying Habits and Community,0.1149,medium,False
+Are there club sports on campus?,"Athletics, Fitness, and Recreation","Athletics, Fitness, and Recreation",0.114,medium,True
